@@ -9,3 +9,9 @@
     text-transform: uppercase;
     color: #1E0606;
 }
+
+.products__list__btn {
+    border: 4px solid #1E0606;
+    box-sizing: border-box;
+    background: rgba(112, 187, 220, 0.2);
+}
