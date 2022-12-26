@@ -4,184 +4,190 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/contact_us.css">
     <title>DL Academy - Personal HTML/CSS project</title>
 </head>
 <body>
-    <header>
-        <img src="./img/logo/Union.png" alt="logo">
-        <ul>
-            <li><a href="#">Blog</a>></li>
-            <li><a href="#">Catalog</a>></li>
-            <li><a href="#">About Us</a>></li>
+    <header class="header">
+        <img class="header__logo" src="./img/logo/Union.png" alt="logo">
+        <ul class="header__list__preview undotted">
+            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Blog</a>></li>
+            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Catalog</a></li>
+            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">About Us</a></li>
         </ul>
-        <ul>
-            <li><a href="#">phone</a></li>
-            <li><a href="#">Contact Us</a></li>
+        <ul class="header__list__contacts undotted">
+            <li class="header__list_contacts__item">
+                <a class="header__list_contacts__link" href="#"><img class="header__list_contacts__img" src="/img/search.svg" alt="search"></a>
+            </li>
+            <li class="header__list_contacts__item">
+                <a class="header__list__link" href="#">Contact Us</a>
+            </li>
         </ul>
     </header>
     <main>
-        <section>
-            <h1>CONTACT US</h1>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
+        <section class="contactUs">
+            <h1 class="contactUs__title">CONTACT US</h1>
+            <ul class="contactUs__list undotted">
+                <li class="contactUs__list__item">
+                    <a class="contactUs__list__link" href="#">Home</a>
                 </li>
-                <li>
-                    <img src="/img/pointer.svg" alt="pointer">
+                <li class="contactUs__list__item">
+                    <img class="contactUs__list__img" src="/img/pointer.svg" alt="pointer">
                 </li>
-                <li>
+                <li class="contactUs__list__item">
                     Contact us
                 </li>
             </ul>    
-                <form action="#" method="post">
-                    <dl>
+                <form class="contactUs__box" action="#" method="post">
+                    <dl class="contactUs__box__elem">
                         <dt>
-                            <label for="Name_user">Name_user</label>
+                            <label class="contactUs__box__desc" for="Name_user">Name_user</label>
                         </dt>
                         <dd>
-                            <input type="text" name="Name_user" id="Name_user">
+                            <input class="contactUs__box__input" type="text" name="Name_user" id="Name_user">
                         </dd>
                     </dl>
-                    <dl>
+                    <dl class="contactUs__box__elem">
                         <dt>
-                            <label for="Phone">Phone</label>
+                            <label class="contactUs__box__desc" for="Phone">Phone</label>
                         </dt>
                         <dd>
-                            <input type="text" name="Phone" id="Phone">
+                            <input class="contactUs__box__input" type="text" name="Phone" id="Phone">
                         </dd>
                     </dl>    
-                    <dl>
+                    <dl class="contactUs__box__elem">
                         <dt>
-                            <label for="Email">Email</label>
+                            <label class="contactUs__box__desc" for="Email">Email</label>
                         </dt>
                         <dd>
-                            <input type="text" name="Email" id="Email">
+                            <input class="contactUs__box__input" type="text" name="Email" id="Email">
                         </dd>
                     </dl>
-                    <dl>
+                    <dl class="contactUs__box__elem">
                         <dt>
-                            <label for="Message">Message</label>
+                            <label class="contactUs__box__desc" for="Message">Message</label>
                         </dt>
                         <dd>
-                            <input type="text" name="Message" id="Message">
+                            <input class="contactUs__box__input" type="text" name="Message" id="Message">
                         </dd>
                     </dl>
-                    <ul>
+                    <ul class="contactUs__box__list undotted">
                         <li>
-                            <input type="checkbox" name="By clicking on the button, you consent to the processing of your personal data" id="1">
+                            <input class="contactUs__box__input" type="checkbox" name="By clicking on the button, you consent to the processing of your personal data" id="1">
                         </li>
                         <li>
-                            <button type="submit">Submit</button>
+                            <button class="contactUs__box__btn" type="submit">Submit</button>
                         </li>
                     </ul>    
                 </form>
-            <ul>
-                <li>
-                    <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
+            <ul class="contactUs__list undotted">
+                <li class="contactUs__list__item">
+                    <p class="contactUs__list__caption">Our support team are on-hand to assist with any issues you are experiencing.</p>
                 </li>
-                <li>
-                    <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+                <li class="contactUs__list__item">
+                    <p class="contactUs__list__caption">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
                 </li>
-                <li>
-                    <p>An expert is waiting to help you!</p>
+                <li class="contactUs__list__item">
+                    <p class="contactUs__list__caption">An expert is waiting to help you!</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <section>
-            <h2>Navigation</h2>
-            <ul>
-                <li>
-                    <a href="#">About Us</a>
+    <footer class="footer">
+        <section class="footer__navigation">
+            <h2 class="footer__navigation__title">Navigation</h2>
+            <ul class="footer__navigation__list undotted">
+                <li class="footer__navigation__list__item">
+                    <a class="footer__navigation__link" href="#">About Us</a>
                 </li>
-                <li>
-                    <a href="#">Blog</a>
+                <li class="footer__navigation__list__item">
+                    <a class="footer__navigation__link" href="#">Blog</a>
                 </li>
-                <li>
-                    <a href="#">Design Services</a>
+                <li class="footer__navigation__list__item">
+                    <a class="footer__navigation__link" href="#">Design Services</a>
                 </li>
-                <li>
-                    <a href="#">Featured On</a>
+                <li class="footer__navigation__list__item">
+                    <a class="footer__navigation__link" href="#">Featured On</a>
                 </li>
-                <li>
-                    <a href="#">2018 Holiday Catalog</a>
+                <li class="footer__navigation__list__item">
+                    <a class="footer__navigation__link" href="#">2018 Holiday Catalog</a>
                 </li>
-                <li>
-                    <a href="#">Shop By Designer</a>
+                <li class="footer__navigation__list__item">
+                    <a class="footer__navigation__link" href="#">Shop By Designer</a>
                 </li>
-                <li>
-                    <p>Company Rating</p>
+                <li class="footer__navigation__list__item">
+                    <p class="footer__navigation__caption">Company Rating</p>
                 </li>
-                <li>
-                    <img src="/img/star.png" alt="star">
+                <li class="footer__navigation__list__item">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
                 </li>
-                <li>
-                    <img src="/img/star.png" alt="star">
+                <li class="footer__navigation__list__item">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
                 </li>
-                <li>
-                    <img src="/img/star.png" alt="star">
+                <li class="footer__navigation__list__item">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
                 </li>
-                <li>
-                    <img src="/img/star.png" alt="star">
+                <li class="footer__navigation__list__item">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
                 </li>
-                <li>
-                    <img src="/img/star.png" alt="star">
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Customer Information</h2>
-            <ul>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-                <li>
-                    <a href="#">Sale Exclusions</a>
-                </li>
-                <li>
-                    <a href="#">Shipping & Returns</a>
-                </li>
-                <li>
-                    <a href="#">Terms & Conditions</a>
-                </li>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">Search</a>
-                </li>
-                <li>
-                    <a href="">Copyright © 2018 Dlk • Design Life Kids</a>
+                <li class="footer__navigation__list__item">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Connect</h2>
-            <ul>
-                <li>
-                    <input type="text">
+        <section class="footer__inform">
+            <h2 class="footer__inform__title">Customer Information</h2>
+            <ul class="footer__inform__list undotted">
+                <li class="footer__inform__list__item">
+                    <a class="footer__inform__link" href="#">Contact Us</a>
                 </li>
-                <li>
-                    <button type="submit">Join</button>
+                <li class="footer__inform__list__item">
+                    <a class="footer__inform__link" href="#">Sale Exclusions</a>
                 </li>
-                <li>
-                    <a href="#">social<img src="/img/social/f.png" alt="social"></a>
+                <li class="footer__inform__list__item">
+                    <a class="footer__inform__link" href="#">Shipping & Returns</a>
                 </li>
-                <li>
-                    <a href="#">social<img src="/img/social/tweet.png" alt="social"></a>
+                <li class="footer__inform__list__item">
+                    <a class="footer__inform__link" href="#">Terms & Conditions</a>
                 </li>
-                <li>
-                    <a href="#">social<img src="/img/social/Pinterest.png" alt="social"></a>
+                <li class="footer__inform__list__item">
+                    <a class="footer__inform__link" href="#">Privacy Policy</a>
                 </li>
-                <li>
-                    <a href="#">social<img src="/img/social/inst.png" alt="social"></a>
+                <li class="footer__inform__list__item">
+                    <a class="footer__inform__link" href="#">Search</a>
                 </li>
-                <li>
-                    <a href="#">Web Design — Direct Line Development</a>
+                <li class="footer__inform__list__item">
+                    <a class="footer__inform__link" href="">Copyright © 2018 Dlk • Design Life Kids</a>
                 </li>
             </ul>
         </section>
-    </footer>    
+        <section class="footer__connect">
+            <h2 class="footer__connect__title">Connect</h2>
+            <ul class="footer__connect__list undotted">
+                <li class="footer__connect__list__item">
+                    <input class="footer__connect__input" type="text" value="Email">
+                </li>
+                <li class="footer__connect__list__item">
+                    <button class="footer__connect__btn" type="submit">Join</button>
+                </li>
+                <li class="footer__connect__list__item">
+                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/faceb.png" alt="social"></a>
+                </li>
+                <li class="footer__connect__list__item">
+                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/tweeet.png" alt="social"></a>
+                </li>
+                <li class="footer__connect__list__item">
+                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/Pinterest.png" alt="social"></a>
+                </li>
+                <li class="footer__connect__list__item">
+                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/inst.png" alt="social"></a>
+                </li>
+                <li class="footer__connect__list__item">
+                    <a class="footer__connect__link_dl" href="#">Web Design — Direct Line Development</a>
+                </li>
+            </ul>
+        </section>
+    </footer>
 </body>
 </html>
