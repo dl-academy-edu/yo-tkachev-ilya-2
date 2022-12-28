@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,
+    wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>DL Academy - Personal HTML/CSS project</title>
 </head>
 <body>
     <header class="header">
         <img class="header__logo" src="./img/logo/Union.png" alt="logo">
         <ul class="header__list__preview undotted">
-            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Blog</a>></li>
-            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Catalog</a></li>
-            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">About Us</a></li>
+            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Blog</a>
+            </li>
+            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Catalog</a>
+            </li>
+            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">About Us</a>
+            </li>
         </ul>
         <ul class="header__list__contacts undotted">
             <li class="header__list_contacts__item">
@@ -43,8 +48,8 @@
                             <li class="banner_quote_item">
                                 <p class="banner__quote__caption undotted">Designed in Slovenia</p>
                             </li>
-                            <li class="banner__quote__item ">
-                                <a class="banner__quote__link" href="">EXPLORE NOW</a>
+                            <li class="banner__quote__item">
+                                <a class="banner__quote__link btn" href="">EXPLORE NOW</a>
                             </li>
                         </ul> 
                     </div>
@@ -62,25 +67,25 @@
         <section class="products">
             <h2 class="products__title">Category Products</h2>
             <ul class="products__list undotted">    
-                <li class="products__list__item">
-                    <a class="products__list__link" href="#">APPAREL KIDS<img class="products__list__img" src="/img/apparel_kids.jpg" alt="APPAREL KIDS"></a>
+                <li class="products__list__item-apparel">
+                    <a class="products__list__link-apparel" href="#">APPAREL KIDS<img class="products__list__img-apparel" src="/img/Apparel_kids (2).png" alt="APPAREL_KIDS"></a>
                 </li>
-                <li class="products__list__item">
-                    <a class="products__list__link" href="#">HOLIDAY SHOP<img class="products__list__img" src="/img/holiday_shop.jpg" alt="HOLIDAY SHOP"></a>
+                <li class="products__list__item-holiday">
+                    <a class="products__list__link-holiday" href="#">HOLIDAY SHOP<img class="products__list__img" src="/img/holiday_shop.png" alt="HOLIDAY_SHOP"></a>
                 </li>
-                <li>
-                    <a class="products__list__link" href="#">TOYS<img class="products__list__img" src="/img/toys.jpg" alt="TOYS"></a>
+                <li class="products__list__item-toys">
+                    <a class="products__list__link-toys" href="#">TOYS<img class="products__list__img-toys" src="/img/toys.png" alt="TOYS"></a>
                 </li>
-                <li class="products__list__item">
-                    <a class="products__list__link" href="#">ACCESSORIES<img class="products__list__img" src="/img/accessories.jpg" alt="ACCESSORIES"></a>
+                <li class="products__list__item-accessories">
+                    <a class="products__list__link-accessories" href="#">ACCESSORIES<img class="products__list__img" src="/img/accessories.png" alt="ACCESSORIES"></a>
                 </li>
             </ul>
             <ul class="products__list__roll undotted">
                 <li class="products__list__item">
-                    <button class="products__list__btn" type="submit"><img class="products__list__img" src="/img/left_roll.png" alt="left_roll"></button>
+                    <button class="products__list__btn" type="submit"><img class="products__list__img-roll" src="/img/left_roll.png" alt="left_roll"></button>
                 </li>
                 <li class="products__list__item">
-                    <button class="products__list__btn" type="submit"><img class="products__list__img" src="/img/right_role.png" alt="right_role"></button>
+                    <button class="products__list__btn" type="submit"><img class="products__list__img-roll" src="/img/right_role.png" alt="right_role"></button>
                 </li>
                 <li class="products__list__item text-products">
                     Modern finds for the modern home. Curated goods by unique 
@@ -93,7 +98,7 @@
             <img class="delivery__title__img" src="/img/model.jpg" alt="model">
             <ul class="delivery__list undotted">
                 <li class="delivery__list__item">
-                    <a class="delivery__list__link" href="#">Delivery</a>
+                    <a class="delivery__list__link-delivery" href="#">Delivery</a>
                 </li>
                 <li class="delivery__list__item">
                     <a class="delivery__list__link" href="#">Guarantee</a>
@@ -113,7 +118,7 @@
                         beautiful designers that we work with to thank!</p>
                 </li>
                 <li class="delivery__list__item">
-                    <a class="delivery__list__link" href="">LEARN MORE</a>
+                    <a class="delivery__list__link-learn-more btn" href="">LEARN MORE</a>
                 </li>
             </ul>
         </section>
@@ -141,11 +146,11 @@
                     <p class="forKids__list__caption">About Us</p>
                 </li>
                 <li class="forKids__list__item">
-                    <p class="forKids__list__caption">Some days i feel like i've been working on dlk my entire life and there are other days that 
+                    <p class="forKids__list__caption2">Some days i feel like i've been working on dlk my entire life and there are other days that 
                         i am completely shocked that four years have flown by. It's simply magical.  </p>
                 </li>
                 <li class="forKids__list__item">
-                    <a class="forKids__list__link" href="">buy now</a>
+                    <a class="forKids__list__link btn" href="">buy now</a>
                 </li>
             </ul>
         </section>
@@ -153,7 +158,7 @@
             <h2 class="contacts__title">Contacts</h2>
             <ul class="contacts__list undotted">
                 <li class="contacts__list__item">
-                    <p class="contacts__list__caption">Some days i feel like i've been working on dlk my entire life and there are other days 
+                    <p class="contacts__list__caption2">Some days i feel like i've been working on dlk my entire life and there are other days 
                         that i am completely shocked that four years have flown by. It's simply magical.</p>
                 </li>
                 <li class="contacts__list__item">
@@ -237,19 +242,19 @@
                     <input class="footer__connect__input" type="text" value="Email">
                 </li>
                 <li class="footer__connect__list__item">
-                    <button class="footer__connect__btn" type="submit">Join</button>
+                    <button class="footer__connect__btn btn" type="submit">Join</button>
                 </li>
                 <li class="footer__connect__list__item">
-                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/faceb.png" alt="social"></a>
+                    <img class="footer__connect__img" src="/img/social/faceb.svg" alt="social">
                 </li>
                 <li class="footer__connect__list__item">
-                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/tweeet.png" alt="social"></a>
+                    <img class="footer__connect__img" src="/img/social/tweeet.svg" alt="social">
                 </li>
                 <li class="footer__connect__list__item">
-                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/Pinterest.png" alt="social"></a>
+                    <img class="footer__connect__img" src="/img/social/Pinterest.svg" alt="social">
                 </li>
                 <li class="footer__connect__list__item">
-                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/inst.png" alt="social"></a>
+                    <img class="footer__connect__img" src="/img/social/inst.svg" alt="social">
                 </li>
                 <li class="footer__connect__list__item">
                     <a class="footer__connect__link_dl" href="#">Web Design — Direct Line Development</a>
