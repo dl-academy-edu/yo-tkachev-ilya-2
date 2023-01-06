@@ -1,0 +1,91 @@
+.category__products__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.category__products__list__link-home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.category__products__list__item-text {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.category__products__list__link {
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.apparel-padding {
+    padding: 46px 18px;
+    background: #DBE4DB;
+}
+
+.holiday-padding {
+    padding: 14px 36px;
+    background: #EADDD3;
+}
+
+.toys-padding {
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #F8F2DA;
+}
+
+.accessories-padding {
+    padding: 10px 20px;
+    background: #D5D4E1;
+}
+
+.sale-padding {
+    padding: 11px 16px;
+    background: #F3D0DB;
+}
+
+.apparel-padding {
+    padding: 34px 4px;
+}
+
+.Product_Description__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.Product_Description__list__caption {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}

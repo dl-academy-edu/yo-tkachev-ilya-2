@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/contact_us.css">
-    <title>DL Academy - Personal HTML/CSS project</title>
-</head>
-<body>
-    <header class="header">
-        <img class="header__logo" src="./img/logo/Union.png" alt="logo">
-        <ul class="header__list__preview undotted">
-            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Blog</a>></li>
-            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Catalog</a></li>
-            <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">About Us</a></li>
-        </ul>
-        <ul class="header__list__contacts undotted">
-            <li class="header__list_contacts__item">
-                <a class="header__list_contacts__link" href="#"><img class="header__list_contacts__img" src="/img/search.svg" alt="search"></a>
-            </li>
-            <li class="header__list_contacts__item">
-                <a class="header__list__link" href="#">Contact Us</a>
-            </li>
-        </ul>
-    </header>
-    <main>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/contact_us.css">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,
+        wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <title>DL Academy - Personal HTML/CSS project</title>
+    </head>
+    <body>
+        <header class="header">
+            <img class="header__logo" src="./img/logo/logo.png" alt="logo">
+            <ul class="header__list__preview undotted">
+                <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Blog</a>
+                </li>
+                <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Catalog</a>
+                </li>
+                <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">About Us</a>
+                </li>
+            </ul>
+            <ul class="header__list__contacts undotted">
+                <li class="header__list_contacts__item">
+                    <a class="header__list_contacts__link" href="#"><img class="header__list_contacts__img" src="/img/search.svg" alt="search"></a>
+                </li>
+                <li class="header__list_contacts__item">
+                    <a class="header__list__link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </header>  
+        <main>
         <section class="contactUs">
             <h1 class="contactUs__title">CONTACT US</h1>
             <ul class="contactUs__list undotted">
@@ -35,17 +40,17 @@
                 <li class="contactUs__list__item">
                     <img class="contactUs__list__img" src="/img/pointer.svg" alt="pointer">
                 </li>
-                <li class="contactUs__list__item">
+                <li class="contactUs__list__item-text">
                     Contact us
                 </li>
             </ul>    
                 <form class="contactUs__box" action="#" method="post">
                     <dl class="contactUs__box__elem">
                         <dt>
-                            <label class="contactUs__box__desc" for="Name_user">Name_user</label>
+                            <label class="contactUs__box__desc" for="Name_user">Name</label>
                         </dt>
                         <dd>
-                            <input class="contactUs__box__input" type="text" name="Name_user" id="Name_user">
+                            <input class="contactUs__box__input" type="text" value="Ivan Ivanov" name="Name_user" id="Name_user">
                         </dd>
                     </dl>
                     <dl class="contactUs__box__elem">
@@ -77,6 +82,9 @@
                             <input class="contactUs__box__input" type="checkbox" name="By clicking on the button, you consent to the processing of your personal data" id="1">
                         </li>
                         <li>
+                            <p class="contactUs__box__caption">By clicking on the button, you consent to the processing of your personal data</p>
+                        </li>
+                        <li>
                             <button class="contactUs__box__btn" type="submit">Submit</button>
                         </li>
                     </ul>    
@@ -89,7 +97,7 @@
                     <p class="contactUs__list__caption">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
                 </li>
                 <li class="contactUs__list__item">
-                    <p class="contactUs__list__caption">An expert is waiting to help you!</p>
+                    <p class="contactUs__list__caption-caps">An expert is waiting to help you!</p>
                 </li>
             </ul>
         </section>
@@ -169,19 +177,19 @@
                     <input class="footer__connect__input" type="text" value="Email">
                 </li>
                 <li class="footer__connect__list__item">
-                    <button class="footer__connect__btn" type="submit">Join</button>
+                    <button class="footer__connect__btn btn" type="submit">Join</button>
                 </li>
                 <li class="footer__connect__list__item">
-                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/faceb.png" alt="social"></a>
+                    <img class="footer__connect__img" src="/img/social/faceb.svg" alt="social">
                 </li>
                 <li class="footer__connect__list__item">
-                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/tweeet.png" alt="social"></a>
+                    <img class="footer__connect__img" src="/img/social/tweeet.svg" alt="social">
                 </li>
                 <li class="footer__connect__list__item">
-                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/Pinterest.png" alt="social"></a>
+                    <img class="footer__connect__img" src="/img/social/Pinterest.svg" alt="social">
                 </li>
                 <li class="footer__connect__list__item">
-                    <a class="footer__connect__link" href="#">social<img class="footer__connect__img" src="/img/social/inst.png" alt="social"></a>
+                    <img class="footer__connect__img" src="/img/social/inst.svg" alt="social">
                 </li>
                 <li class="footer__connect__list__item">
                     <a class="footer__connect__link_dl" href="#">Web Design — Direct Line Development</a>

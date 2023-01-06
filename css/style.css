@@ -15,17 +15,7 @@
     box-sizing: border-box;
     background: rgba(112, 187, 220, 0.2);
 }
-.header__list__preview__item {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    color: #1E0606;
-}
+
 
 .banner__title {
     font-family: 'Montserrat', sans-serif;
@@ -140,11 +130,9 @@
 }
 
 .products__list__item-toys {
-    padding: auto;
-    padding: 36px;
-    padding-left: 13px;
-    padding-right: 13px;
-    background:wheat;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #F8F2DA;
 }
 
 .products__list__link-accessories {
