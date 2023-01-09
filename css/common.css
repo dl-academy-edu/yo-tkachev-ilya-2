@@ -29,8 +29,8 @@ a {
     align-items: center;
     margin-top: 50px;
     margin-left: 110px;
-    margin-right: 50px;
-    margin-bottom: 129px;
+    /* margin-right: 110px; */
+    margin-bottom: 130px;
 }
 
 
@@ -42,6 +42,7 @@ a {
 .header__list__contacts {
     display: flex;
     margin-left: auto;
+    margin-right: 110px;
 }
 
 /* постановка лого */
@@ -104,9 +105,10 @@ a {
     background: #000000;
     display: inline-block
 }
-/* фон */
+/* фон футтера */
 .footer {
     background: #434343;
+    display: flex;
 }
 
 /* свойства для h2 футера */
@@ -211,4 +213,27 @@ a {
     display: flex;
     align-items: center;
     color: #A2A2A2;
+}
+
+
+/* Отсутпы блоков */
+.footer__navigation {
+    margin-left: 110px;
+    margin-top: 100px;
+    margin-bottom: 110px;
+    margin-right: 154px;
+}
+/* Отсутпы блоков */
+.footer__inform {
+    margin-left: 110px;
+    margin-top: 100px;
+    margin-bottom: 110px;
+    margin-right: 110px;
+}
+/* Отсутпы блоков */
+.footer__connect {
+    margin-left: 110px;
+    margin-top: 100px;
+    margin-bottom: 110px;
+    margin-right: 110px;
 }

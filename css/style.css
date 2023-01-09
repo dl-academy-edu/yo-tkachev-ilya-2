@@ -1,18 +1,15 @@
-
-/*  */
+/* отступы блоком */
 .banner {
-    background: #EEE4DB;
     margin-left: 110px;
     margin-right: 110px;
-    margin-top: 130px;
 }
-
 
 .banner__quote {
     display: flex;
 }
 
-.banner__title {
+
+.banner__designed__list__caption {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -23,9 +20,6 @@
     display: flex
 }
 
-.banner__quote__list {
-    order: -1;
-}
 
 .banner__quote__list__item {
     font-family: 'Montserrat', sans-serif;
@@ -34,20 +28,6 @@
     font-size: 60px;
     line-height: 74px;
     color: rgba(30, 6, 6, 0.05);
-}
-
-.banner__quote__list__caption {
-    margin-left: 28px;
-    margin-right: 44px;
-    margin-bottom: 10px;
-}
-
-.banner__quote__img {
-    margin-left: 31px;
-}
-
-.banner__designed__list {
-    align-self: center;
 }
 
 
@@ -96,22 +76,21 @@
     text-transform: uppercase;
     color: #1E0606;
     margin-top: 90px;
-    margin-left: 110px;
     justify-content: space-around;
     
 }
 
+/* отступы блоком */
+.products {
+    margin-left: 110px;
+    margin-right: 110px;
+}
 
 .products__list {
     display: flex;
+
 }
 
-/* 
-.products__list__img {
-    display: flex;
-    margin: auto;
-    align-items: flex-end;
-} */
 
 /* общее свойство ссылок внутри картинок */
 .products__list__link {
@@ -148,7 +127,7 @@
 .products__list__apparel {
     position: relative;
     background: #DBE4DB;
-    margin-left: 128px;
+    /* margin-left: 128px; */
     margin-top: 30px;
     margin-bottom: 34px;
     margin-right: 20px;
@@ -178,7 +157,7 @@
     background: #D5D4E1;
     margin-top: 30px;
     margin-bottom: 34px;
-    margin-right: 110px; 
+    /* margin-right: 110px;  */
 }
 
 /* центровка ссылки на блок */
@@ -196,8 +175,9 @@
     box-sizing: border-box;
     background: rgba(112, 187, 220, 0.2);
     border: none;
-    margin-left: 122px;
-    margin-right: 30px;
+
+    margin-right: 6px;
+    padding: 6px 12px;
 }
 
 /* свойства кнопки вправо */
@@ -206,6 +186,8 @@
     box-sizing: border-box;
     background: rgba(112, 187, 220, 0.2);
     border: none;
+
+    padding: 6px 12px;
     margin-right: 32px;
     margin-bottom: 90px;
 }
@@ -232,7 +214,7 @@
 .delivery {
     display: flex;
     margin-left: 110px;
-    margin-right: 210px;
+    margin-right: 110px;
     margin-bottom: 90px;
 }
 
@@ -373,12 +355,18 @@
 
 /* h2 Design Life Kids */
 
-.kids__block {
+.Kids {
+
+    margin-left: 110px;
+    margin-right: 148px;
+}
+
+.Kids__list {
     display: flex;
 }
 
 /* h2 Design Life Kids*/
-.Kids__title {
+.Kids__list__caption-title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -429,4 +417,5 @@ color: #1E0606;
     text-transform: uppercase;
     color: #1E0606;
 }
+
 
