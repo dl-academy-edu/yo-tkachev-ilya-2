@@ -1,3 +1,5 @@
+
+/*  */
 .banner {
     background: #EEE4DB;
     margin-left: 110px;
@@ -59,10 +61,6 @@
 }
 
 
-/* .banner__block__img {
-    background: rgba(30, 6, 6, 0.6);
-} */
-
 .banner__quote__caption {
     font-family: 'Crimson Text';
     font-style: italic;
@@ -88,7 +86,7 @@
 
 /* категории продуктов */
 
-
+/* h2 Category Products */
 .products__title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -103,24 +101,19 @@
     
 }
 
-.div {
+
+.products__list {
     display: flex;
 }
 
-
-.products__list {
-
-    /* flex-direction: row;
-    justify-content: space-around;
-     */
-}
-
+/* 
 .products__list__img {
     display: flex;
     margin: auto;
     align-items: flex-end;
-}
+} */
 
+/* общее свойство ссылок внутри картинок */
 .products__list__link {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -136,18 +129,22 @@
 
 }
 
+/* отсутпы картинок */
 .products__list__img-apparel {
     padding: 46px 18px;
 }
 
+/* отсутпы картинок */
 .products__list__img-holiday {
     padding: 13px 36px;
 }
 
+/* отсутпы картинок */
 .products__list__img-accessories {
     padding: 10px 20px;
 }
 
+/* свойства для блоков div */
 .products__list__apparel {
     position: relative;
     background: #DBE4DB;
@@ -157,6 +154,7 @@
     margin-right: 20px;
 }
 
+/* свойства для блоков div */
 .products__list__holiday {
     position: relative;
     background: #EADDD3;
@@ -165,6 +163,7 @@
     margin-right: 25px;
 }
 
+/* свойства для блоков div */
 .products__list__toys {
     position: relative;
     background: #F8F2DA;
@@ -173,6 +172,7 @@
     margin-right: 25px;
 }
 
+/* свойства для блоков div */
 .products__list__accessories {
     position: relative;
     background: #D5D4E1;
@@ -181,14 +181,7 @@
     margin-right: 110px; 
 }
 
-/* .products__list-centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
-} */
-
+/* центровка ссылки на блок */
 .centered {
     position: absolute;
     top: 50%;
@@ -197,7 +190,7 @@
     text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
-
+/* свойства кнопки влево */
 .products__list__btn-left {
     border: 4px solid #1E0606;
     box-sizing: border-box;
@@ -207,6 +200,7 @@
     margin-right: 30px;
 }
 
+/* свойства кнопки вправо */
 .products__list__btn-right {
     border: 4px solid #1E0606;
     box-sizing: border-box;
@@ -216,13 +210,13 @@
     margin-bottom: 90px;
 }
 
-/* rolls */
+
+/* свойства под кноки влево\вправа*/
 .products__list__roll {
     display: flex;
 }
 
-
-
+/* отдельное свойство под текст */
 .text-products {
     font-family: 'Open Sans';
     font-style: normal;
@@ -234,6 +228,7 @@
 
 /* h2 delivery */
 
+/* отступы общего блока delivery */
 .delivery {
     display: flex;
     margin-left: 110px;
@@ -241,7 +236,7 @@
     margin-bottom: 90px;
 }
 
-
+/* h2 delivery */
 .delivery__title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -255,14 +250,14 @@
     
 }
 
+/* размер главного фото на экране */
 .delivery__title__img {
     order: -1;
     width: 480px;
     height: 559px;
-    /* margin-right: 60px;   */
 }
 
-
+/* свойство строки загаловка */
 .delivery__list__caption-delivery {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -276,6 +271,7 @@
     margin-left: 120px;
 }
 
+/* ссылка delivery */
 .delivery__list__link-delivery {
     font-family: 'Crimson Text';
     font-style: italic;
@@ -285,6 +281,17 @@
     color: #1E0606;
 }
 
+/* цвет ссылки delivery */
+.delivery__list__link-delivery {
+    background: rgba(112, 187, 220, 0.2);
+    padding-left: 60px;
+    padding-right: 180px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 60px;
+}
+
+/* ссылка guarantee */
 .delivery__list__caption-guarantee {
     font-family: 'Crimson Text';
     font-style: italic;
@@ -297,7 +304,7 @@
     margin-left: 120px;
 }
 
-
+/* ссылка credit */
 .delivery__list__caption-credit {
     font-family: 'Crimson Text';
     font-style: italic;
@@ -309,23 +316,7 @@
     margin-left: 120px;
 }
 
-.delivery__list__link-delivery {
-    background: rgba(112, 187, 220, 0.2);
-    padding-left: 60px;
-    padding-right: 180px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    margin-left: 60px;
-}
-
-
-.delivery__list__item {
-    /* margin-left: 60px; */
-    /* padding-left: 60px; */
-    /* margin-right: 214px; */
-}
-
-
+/* первая надпись */
 .delivery__list__caption-one {
     font-family: 'Open Sans';
     font-style: normal;
@@ -338,6 +329,7 @@
     margin-left: 120px;
 }
 
+/* вторая надпись */
 .delivery__list__caption-two {
     font-family: 'Open Sans';
     font-style: normal;
@@ -349,12 +341,15 @@
     margin-left: 120px;
 }
 
+/* отступ кнопки LEARN MORE*/
 .delivery__list__link-learn-more {
     margin-left: 120px;
     
 }
 
-/* спонсоры */
+
+
+/* спонсоры - отступы*/
 .sponsots__list {
     display: flex;
     margin-bottom: 90px;
@@ -375,13 +370,15 @@
     margin-right: 110px;
 }
 
+
 /* h2 Design Life Kids */
 
-.forkids__block {
+.kids__block {
     display: flex;
 }
 
-.forKids__title {
+/* h2 Design Life Kids*/
+.Kids__title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -391,7 +388,8 @@
     color: #1E0606;
 }
 
-.forKids__list__caption {
+/* <p About Us */
+.Kids__list__caption {
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 400;
@@ -400,17 +398,10 @@
     color: #1E0606;
 }
 
-.forKids__list__caption2 {
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #1E0606;
-}
 
+/* заголовок */
 .contacts__list__caption {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -418,6 +409,17 @@ color: #1E0606;
     color: #1E0606;
 }
 
+/* текст под заголовком */
+.Kids__list__caption2 {
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #1E0606;
+}
+
+/* h2  Contacts*/
 .contacts__title {
     font-family: 'Montserrat';
     font-style: normal;
