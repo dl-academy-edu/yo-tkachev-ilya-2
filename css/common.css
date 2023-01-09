@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    /* display: none; лучше не использовать, ломается доступность */
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.undotted {
+    list-style-type : none
+}
+
+/* постановка header */
+.header {
+    display : flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 50px;
+    margin-bottom: 129px;
+}
+
+
+.header__list__preview {
+    display: flex;
+
+}
+
+.header__list__contacts {
+    display: flex;
+    margin-left: auto;
+}
+
+/* постановка лого */
+.header__logo {
+    margin-right: 60px;
+}
+
+
+.header__list__contacts__item {
+    margin: 12px;
+}
+
+/* свойства для объектов превью */
+.header__list__preview__item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606;
+
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+/* свойства для объектов превью справа */
+.header__list__contacts__item {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+
+/* общее свойства для кнопок */
+.btn{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 9px 22px;
+    background: #000000;
+    display: inline-block
+}
+/* фон */
+.footer {
+    background: #434343;
+}
+
+/* свойства для h2 футера */
+.footer__navigation__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+/* общие свойства для ссылок */
+.footer__navigation__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+.footer__navigation__caption {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* общие свойсчтва для Customer Information*/
+.footer__inform__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+/* общие свойства для ссылок Customer Information */
+.footer__inform__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* h2 Connect  */
+.footer__connect__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+
+
+/* свойства для ввода данных */
+.footer__connect__input {
+    background: #666666;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #EBEBEB;
+}
+
+/* свойства для кнопки */
+.footer__connect__btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #000000;
+}
+
+.footer__connect__link_dl {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+}
