@@ -87,6 +87,8 @@
 }
 
 /* категории продуктов */
+
+
 .products__title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -98,12 +100,16 @@
     margin-top: 90px;
     margin-left: 110px;
     justify-content: space-around;
+    
+}
 
+.div {
+    display: flex;
 }
 
 
 .products__list {
-    display: flex;
+
     /* flex-direction: row;
     justify-content: space-around;
      */
@@ -126,12 +132,12 @@
     color: #FFFFFF;
     display: block;
     margin: auto;
+    z-index: 1;
 
 }
 
 .products__list__img-apparel {
     padding: 46px 18px;
-
 }
 
 .products__list__img-holiday {
@@ -175,7 +181,15 @@
     margin-right: 110px; 
 }
 
-.products__list-centered {
+/* .products__list-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+} */
+
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -227,9 +241,6 @@
     margin-bottom: 90px;
 }
 
-.delivery__title-reverse {
-
-}
 
 .delivery__title {
     font-family: 'Montserrat';
@@ -347,9 +358,28 @@
 .sponsots__list {
     display: flex;
     margin-bottom: 90px;
-    justify-content: space-around;
 }
 
+.sponsots__list__item-mail {
+    margin-left: 110px;
+    margin-right: 128px;
+
+}
+
+.sponsots__list__item-eltex {
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+.sponsots__list__item-owox {
+    margin-right: 110px;
+}
+
+/* h2 Design Life Kids */
+
+.forkids__block {
+    display: flex;
+}
 
 .forKids__title {
     font-family: 'Montserrat', sans-serif;
