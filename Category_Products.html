@@ -6,8 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/common.css">
         <link rel="stylesheet" href="./css/Category_Products.css">
-        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,
-        wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
         <title>DL Academy - Personal HTML/CSS project</title>
     </head>
     <body>
@@ -24,48 +23,62 @@
             </div> 
     </header>
     <main>
-        <section class="category__products">
+        <section class="category__products content ">
             <h1 class="category__products__title">Category Products</h1>
             <ul class="category__products__list undotted">
                 <li class="category__products__list__item">
                     <a class="category__products__list__link-home" href="#">Home</a>
                 </li>
-                <li class="category__products__list__item">
+                <li class="category__products__list__item-vector">
                     <img class="category__products__list__img" src="/img/vector.png" alt="pointer">
                 </li>
                 <li class="category__products__list__item-text">
                     Catalog
                 </li>
-                <li class="category__products__list__item apparel-padding">
-                    <a class="category__products__list__link" href="#">APPAREL KIDS<img class="category__products__list__img" src="/img/Apparel_kids.png" alt="APPAREL KIDS"></a>
-                </li>
-                <li class="category__products__list__item holiday-padding">
-                    <a class="category__products__list__link" href="#">HOLIDAY SHOP<img class="category__products__list__img" src="/img/Holiday_shop.png" alt="HOLIDAY SHOP"></a>
-                </li>
-                <li class="category__products__list__item toys-padding">
-                    <a class="category__products__list__link" href="#">TOYS<img class="category__products__list__img" src="/img/toys.png" alt="TOYS"></a>
-                </li>
-                <li class="category__products__list__item accessories-padding">
-                    <a class="category__products__list__link" href="#">ACCESSORIES<img class="category__products__list__img" src="/img/accessories.png" alt="ACCESSORIES"></a>
-                </li>
-                <li class="category__products__list__item sale-padding">
-                    <a class="category__products__list__link" href="#">SALE<img class="category__products__list__img" src="/img/sale.png" alt="SALE"></a>
-                </li>
-                <li class="category__products__list__item apparel-padding">
-                    <a class="category__products__list__link" href="#">APPAREL ADULTS<img class="category__products__list__img" src="/img/apparel_adults.png" alt="APPAREL ADULTS"></a>
-                </li>
             </ul>
-        </section>
-        <section class="Product_Description">
-            <h2 class="Product_Description__title">Product Description</h2>
-            <ul class="Product_Description__list undotted">
-                <li class="Product_Description__list__item"><p class="Product_Description__list__caption">Interactive doll Zapf Creation Baby Born Sister can drink 
-                    from a bottle and almost really cry. You can even bathe her, just like a little sister.</p></li>
-                <li class="Product_Description__list__item"><p class="Product_Description__list__caption">A toy with a height of 43 cm bends its knees, the head rotates, 
-                    it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p></li>
-                <li class="Product_Description__list__item"><p class="Product_Description__list__caption">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, 
-                    as well as two bracelets: one for the doll, the other for her young mistress.</p></li>
-            </ul>
+            <div class="products__list content">
+                <div class="products__list__apparel">
+                    <img class="products__list__img-apparel" src="/img/Apparel_kids.png" alt="Apparel kids">
+                    <div class="products__list-centered"> <a class="products__list__link centered" href="#">Apparel Kids</a></div>
+                </div>
+                <div class="products__list__holiday">
+                    <img class="products__list__img-holiday"  src="/img/Holiday_shop.png" alt="HOLIDAY SHOP">
+                    <div class="products__list-centered"> <a class="products__list__link centered" href="#">HOLIDAY SHOP</a></div>
+                </div>
+                <div class="products__list__toys">
+                    <img class="products__list__img"  src="/img/toys.png" alt="Toys">
+                    <div class="products__list-centered"> <a class="products__list__link centered" href="#">Toys</a></div>
+                </div>
+            </div>
+            <div class="products__list__description">
+                <div class="products__list__accessories">
+                    <img class="products__list__img-accessories"  src="/img/accessories.png" alt="accessories">
+                    <div class="products__list-centered"> <a class="products__list__link centered" href="#">accessories</a></div>
+                </div>
+                <div class="products__list__sale">
+                    <img class="products__list__img-sale"  src="/img/sale.png" alt="SALE">
+                    <div class="products__list-centered"> <a class="products__list__link centered" href="#">SALE</a></div>
+                </div>
+                <div class="products__list__appareladults">
+                    <img class="products__list__img"  src="/img/apparel_adults.png" alt="APPAREL ADULTS">
+                    <div class="products__list-centered"> <a class="products__list__link centered" href="#">APPAREL ADULTS</a></div>
+                </div>
+            </div>     
+            <div class="Product__Description__div">
+                <div class="Product__Description__div2"> 
+                <ul class="Product__Description__list undotted">
+                    <li class="Product__Description__list__item">
+                        <p class="Product__Description__list__title">Product Description</p>
+                    </li>
+                    <li class="Product__Description__list__item"><p class="Product__Description__list__caption">Interactive doll Zapf Creation Baby Born Sister can drink 
+                        from a bottle and almost really <br> cry.  You can even bathe her, just like a little sister.</p></li>
+                    <li class="Product__Description__list__item"><p class="Product__Description__list__caption">A toy with a height of 43 cm bends its knees, the head rotates, 
+                        it can stand upright. Such a <br> doll will be an excellent choice for a gift for a girl from 4 years old.</p></li>
+                    <li class="Product__Description__list__item"><p class="Product__Description__list__caption">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a <br> pair of hairpins and elastic bands for hair, 
+                        as well as two bracelets: one for the doll, the <br> other for her young mistress.</p></li>
+                </ul>
+                </div>  
+            </div>
         </section>
     </main>
     <footer class="footer ">
