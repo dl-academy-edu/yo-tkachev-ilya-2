@@ -1,22 +1,37 @@
 /* отступы блоком */
 .banner {
-    margin-left: 110px;
-    margin-right: 110px;
+    background: #EEE4DB;
 }
 
 .banner__quote {
+    margin-top: 144px;
+}
+
+.banner__quote__list {
     display: flex;
+    
+}
+
+.banner__designed {
+    display: flex;
+    
+    
+}
+
+.banner__quote__list__item {
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-top: 10px;
 }
 
 
-.banner__designed__list__caption {
+.banner__designed__list__caption-title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 110%;
     color: #1E0606;
-    align-self: center;
     display: flex
 }
 
@@ -51,7 +66,7 @@
 }
 
 
-.banner__img__caption {
+.banner__designed__list__caption {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -62,7 +77,34 @@
     background: #C29974;
     color: #FFFFFF;
     align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 90px;
 }
+
+
+
+.banner__designed__item {
+    margin-left: 134px;
+    margin-bottom: 20px;
+}
+
+.banner__designed__item__nav {
+
+}
+
+.banner__designed__img {
+    position: absolute;
+    left: 900px;
+    top: 144px;
+}
+
+.banner__designed__item__caption {
+    position: relative;
+    z-index: 2;
+}
+
+
 
 /* категории продуктов */
 
@@ -169,6 +211,11 @@
     text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
+/* свойства под кноки влево\вправа*/
+.products__list__roll {
+    display: flex;
+}
+
 /* свойства кнопки влево */
 .products__list__btn-left {
     border: 4px solid #1E0606;
@@ -193,10 +240,7 @@
 }
 
 
-/* свойства под кноки влево\вправа*/
-.products__list__roll {
-    display: flex;
-}
+
 
 /* отдельное свойство под текст */
 .text-products {
@@ -213,9 +257,8 @@
 /* отступы общего блока delivery */
 .delivery {
     display: flex;
-    margin-left: 110px;
-    margin-right: 110px;
     margin-bottom: 90px;
+    
 }
 
 /* h2 delivery */
@@ -227,17 +270,9 @@
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
-    order: 2;
-    z-index: 1;
-    
 }
 
-/* размер главного фото на экране */
-.delivery__title__img {
-    order: -1;
-    width: 480px;
-    height: 559px;
-}
+
 
 /* свойство строки загаловка */
 .delivery__list__caption-delivery {
@@ -330,43 +365,55 @@
 }
 
 
-
 /* спонсоры - отступы*/
 .sponsots__list {
     display: flex;
     margin-bottom: 90px;
 }
 
-.sponsots__list__item-mail {
-    margin-left: 110px;
-    margin-right: 128px;
-
+.sponsots__list__img {
+    margin-right: 127px;
 }
-
-.sponsots__list__item-eltex {
-    margin-left: 128px;
-    margin-right: 128px;
-}
-
-.sponsots__list__item-owox {
-    margin-right: 110px;
-}
-
 
 /* h2 Design Life Kids */
 
 .Kids {
+    margin-bottom: 50px;
+}
 
-    margin-left: 110px;
-    margin-right: 148px;
+.kids__div__design {
+    background: #E1F0F7;
+    width: 544px;
+    height: 228px;
+    margin-bottom: 156px;
+}
+
+.kids__div__contact {
+    background: #E1F0F7;
+    margin-left: 58px;
+    width: 544px;
+    height: 210px;
 }
 
 .Kids__list {
     display: flex;
+    flex-direction: column;
+}
+
+.Kids__title {
+    margin-bottom: 10px;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.kids__div {
+    display: flex;
 }
 
 /* h2 Design Life Kids*/
-.Kids__list__caption-title {
+.Kids__caption {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -374,6 +421,9 @@
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    margin-left: 30px;
+    position: absolute;
+    top: 2018px
 }
 
 /* <p About Us */
@@ -384,6 +434,9 @@
     font-size: 26px;
     line-height: 34px;
     color: #1E0606;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 
@@ -400,11 +453,25 @@
 /* текст под заголовком */
 .Kids__list__caption2 {
     font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #1E0606;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.Kids__list__contact__caption2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
 }
 
 /* h2  Contacts*/
@@ -419,3 +486,11 @@ color: #1E0606;
 }
 
 
+.Kids__list__link {
+    margin-left: 30px;
+}
+
+.kids__div__contact__map {
+    margin-left: 30px;
+    padding-bottom: 50px;
+}

@@ -11,25 +11,18 @@
         <title>DL Academy - Personal HTML/CSS project</title>
     </head>
     <body>
-        <header class="header">
-            <img class="header__logo" src="./img/logo/logo.png" alt="logo">
-            <ul class="header__list__preview undotted">
-                <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Blog</a>
-                </li>
-                <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">Catalog</a>
-                </li>
-                <li class="header__list__preview__item"><a class="header__list__preview__link" href="#">About Us</a>
-                </li>
-            </ul>
-            <ul class="header__list__contacts undotted">
-                <li class="header__list_contacts__item">
-                    <a class="header__list_contacts__link" href="#"><img class="header__list_contacts__img" src="/img/search.svg" alt="search"></a>
-                </li>
-                <li class="header__list_contacts__item">
-                    <a class="header__list__link" href="#">Contact Us</a>
-                </li>
-            </ul>
-        </header>  
+        <header class="header content ">
+            <div class="header__preview">
+                <img class="header__logo" src="./img/logo/logo.png" alt="logo">
+                <a class="header__preview__link" href="#">Blog</a>
+                <a class="header__preview__link" href="#">Catalog</a>
+                <a class="header__preview__link" href="#">About Us</a>
+            </div>
+            <div class="header__contacts__list undotted">
+                <a class="header__contacts__link" href="#"><img class="header__contacts__list__img" src="/img/search.svg" alt="search"></a>
+                <a class="header__contacts__link" href="#">Contact Us</a>
+            </div> 
+    </header> 
         <main>
         <section class="contactUs">
             <h1 class="contactUs__title">CONTACT US</h1>
@@ -102,100 +95,60 @@
             </ul>
         </section>
     </main>
-    <footer class="footer">
-        <section class="footer__navigation">
-            <h2 class="footer__navigation__title">Navigation</h2>
-            <ul class="footer__navigation__list undotted">
-                <li class="footer__navigation__list__item">
-                    <a class="footer__navigation__link" href="#">About Us</a>
-                </li>
-                <li class="footer__navigation__list__item">
-                    <a class="footer__navigation__link" href="#">Blog</a>
-                </li>
-                <li class="footer__navigation__list__item">
-                    <a class="footer__navigation__link" href="#">Design Services</a>
-                </li>
-                <li class="footer__navigation__list__item">
-                    <a class="footer__navigation__link" href="#">Featured On</a>
-                </li>
-                <li class="footer__navigation__list__item">
-                    <a class="footer__navigation__link" href="#">2018 Holiday Catalog</a>
-                </li>
-                <li class="footer__navigation__list__item">
-                    <a class="footer__navigation__link" href="#">Shop By Designer</a>
-                </li>
-                <li class="footer__navigation__list__item">
-                    <p class="footer__navigation__caption">Company Rating</p>
-                </li>
-                <li class="footer__navigation__list__item">
-                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
-                </li>
-                <li class="footer__navigation__list__item">
-                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
-                </li>
-                <li class="footer__navigation__list__item">
-                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
-                </li>
-                <li class="footer__navigation__list__item">
-                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
-                </li>
-                <li class="footer__navigation__list__item">
-                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
-                </li>
-            </ul>
-        </section>
-        <section class="footer__inform">
-            <h2 class="footer__inform__title">Customer Information</h2>
-            <ul class="footer__inform__list undotted">
-                <li class="footer__inform__list__item">
-                    <a class="footer__inform__link" href="#">Contact Us</a>
-                </li>
-                <li class="footer__inform__list__item">
-                    <a class="footer__inform__link" href="#">Sale Exclusions</a>
-                </li>
-                <li class="footer__inform__list__item">
-                    <a class="footer__inform__link" href="#">Shipping & Returns</a>
-                </li>
-                <li class="footer__inform__list__item">
-                    <a class="footer__inform__link" href="#">Terms & Conditions</a>
-                </li>
-                <li class="footer__inform__list__item">
-                    <a class="footer__inform__link" href="#">Privacy Policy</a>
-                </li>
-                <li class="footer__inform__list__item">
-                    <a class="footer__inform__link" href="#">Search</a>
-                </li>
-                <li class="footer__inform__list__item">
-                    <a class="footer__inform__link" href="">Copyright © 2018 Dlk • Design Life Kids</a>
-                </li>
-            </ul>
-        </section>
-        <section class="footer__connect">
-            <h2 class="footer__connect__title">Connect</h2>
-            <ul class="footer__connect__list undotted">
-                <li class="footer__connect__list__item">
+    <footer class="footer ">
+        <div class="footer__main content">
+            <div class="footer__navigation">
+                <div class="footer__navigation__block">
+                <p class="footer__navigation__block__caption">Navigation</p>
+                <hr class="footer__navigation__line">
+                <a class="footer__navigation__link" href="#">About Us</a>
+                <a class="footer__navigation__link" href="#">Blog</a>
+                <a class="footer__navigation__link" href="#">Design Services</a>
+                <a class="footer__navigation__link" href="#">Featured On</a>
+                <a class="footer__navigation__link" href="#">2018 Holiday Catalog</a>
+                <a class="footer__navigation__link" href="#">Shop By Designer</a>
+                </div>
+            </div>
+            <div class="footer__inform__block__contactus">
+                <p class="footer__navigation__block__caption">Customer Information</p>
+                <hr class="footer__navigation__line">
+                <a class="footer__inform__link" href="#">Contact Us</a>
+                <a class="footer__inform__link" href="#">Sale Exclusions</a>
+                <a class="footer__inform__link" href="#">Shipping & Returns</a>
+                <a class="footer__inform__link" href="#">Terms & Conditions</a>
+                <a class="footer__inform__link" href="#">Privacy Policy</a>
+                <a class="footer__inform__link" href="#">Search</a>
+            </div>    
+            <div class="footer__inform__block__connect">
+                <p class="footer__navigation__block__caption">Connect</p>
+                <hr class="footer__navigation__line">
+                <div class="footer__inform__block__connect__input">
                     <input class="footer__connect__input" type="text" value="Email">
-                </li>
-                <li class="footer__connect__list__item">
-                    <button class="footer__connect__btn btn" type="submit">Join</button>
-                </li>
-                <li class="footer__connect__list__item">
-                    <img class="footer__connect__img" src="/img/social/faceb.svg" alt="social">
-                </li>
-                <li class="footer__connect__list__item">
-                    <img class="footer__connect__img" src="/img/social/tweeet.svg" alt="social">
-                </li>
-                <li class="footer__connect__list__item">
-                    <img class="footer__connect__img" src="/img/social/Pinterest.svg" alt="social">
-                </li>
-                <li class="footer__connect__list__item">
-                    <img class="footer__connect__img" src="/img/social/inst.svg" alt="social">
-                </li>
-                <li class="footer__connect__list__item">
-                    <a class="footer__connect__link_dl" href="#">Web Design — Direct Line Development</a>
-                </li>
-            </ul>
-        </section>
+                    <button class="footer__connect__btn" type="submit">Join</button>
+                </div>
+                <nav class="footer__inform__block__connect__link">
+                    <a class="footer__connect__link " href="#"><img class="footer__connect__img" src="/img/social/faceb.svg" alt="social"></a>
+                    <a class="footer__connect__link" href="#"><img class="footer__connect__img" src="/img/social/tweeet.svg" alt="social"></a>
+                    <a class="footer__connect__link" href="#"><img class="footer__connect__img" src="/img/social/Pinterest.svg" alt="social"></a>
+                    <a class="footer__connect__link" href="#"><img class="footer__connect__img" src="/img/social/inst.svg" alt="social"></a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__navigation__list__underline content">
+            <hr class="footer__navigation__list__underline-line">
+        </div>
+            <div class="footer__navigation__list__rating content">
+                <p class="footer__navigation__caption">Company Rating</p>
+                <nav class="footer__navigation__list__nav">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                </nav>
+                <a class="footer__inform__link-copy" href="#">Copyright © 2018 Dlk • Design Life Kids</a>
+                <a class="footer__inform__link-dl" href="#">Web Design — Direct Line Development</a>
+            </div>
     </footer>
 </body>
 </html>
