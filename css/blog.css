@@ -6,9 +6,54 @@
     line-height: 50px;
     text-transform: uppercase;
     color: #1E0606;
+    margin-bottom: 15px;
 }
 
+.blog__list__item-pointer {
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
+.blog__list__link__home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.blog__list__link-blog {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.blog__list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.blog-main {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.blog-block {
+    display: flex;
+}
+
+.blog__list__blogs {
+    display: flex;
+    flex-direction: column;
+}
+
+.
 
 .text-blog {
     font-family: 'Crimson Text', sans-serif;
@@ -18,6 +63,7 @@
     line-height: 26px;
     color: #1E0606;
     opacity: 0.5;
+
 }
 
 .blog__list__caption-date {
@@ -66,4 +112,39 @@
     line-height: 20px;
     text-transform: uppercase;
     color: #1E0606;
+    margin-right: 67px;
+}
+
+.rolls {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rolls__list {
+    display: flex;
+
+}
+
+.blog__list__link-roll {
+    margin-right: 458px;
+
+}
+
+.blog__list__link-leftroll {
+    margin-left: 391px;
+}
+
+.blog__list__caption-date {
+    margin-top: 20px;
+    margin-bottom: 7px;
+
+}
+
+.blog__list__caption-article {
+    margin-bottom: 15px;
+}
+
+.mrg {
+    margin-left: 20px;
+    margin-right: 20px;
 }
