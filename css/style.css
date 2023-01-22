@@ -1,26 +1,38 @@
 /* отступы блоком */
 .banner {
     background: #EEE4DB;
+
+}
+
+.banner-title {
+    display: flex;
 }
 
 .banner__quote {
-    margin-top: 144px;
+    display: flex;
 }
 
 .banner__quote__list {
     display: flex;
+
     
 }
 
-.banner__designed {
+.banner__quote__list__underline {
+    background: rgba(30, 6, 6, 0.6);
+    width: 31px;
+    height: 3px; 
+    margin-top: 10px;
+}
+
+
+.banner__quote__list {
     display: flex;
-    
-    
+    flex-direction: column;
 }
 
 .banner__quote__list__item {
     margin-left: 30px;
-    margin-right: 70px;
     margin-top: 10px;
 }
 
@@ -29,10 +41,12 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
+    width: 307px;
     font-size: 40px;
     line-height: 110%;
     color: #1E0606;
-    display: flex
+    margin-top: 90px;
+    margin-left: 44px;
 }
 
 
@@ -43,6 +57,11 @@
     font-size: 60px;
     line-height: 74px;
     color: rgba(30, 6, 6, 0.05);
+}
+
+.banner__quote__list__item-line {
+    margin-bottom: 10px;
+    margin-left: 31px;
 }
 
 
@@ -89,14 +108,15 @@
     margin-bottom: 20px;
 }
 
-.banner__designed__item__nav {
-
+.banner__designed__item-sloven {
+    margin-top: 51px;
 }
+
 
 .banner__designed__img {
     position: absolute;
     left: 900px;
-    top: 144px;
+    top: 95px;
 }
 
 .banner__designed__item__caption {
@@ -250,6 +270,8 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
+    width: 580px;
+    height: 44px;
 }
 
 /* h2 delivery */
@@ -344,6 +366,8 @@
     margin-top: 30px;
     margin-bottom: 15px;
     margin-left: 120px;
+    width: 480px;
+    height: 66px;
 }
 
 /* вторая надпись */
@@ -356,6 +380,8 @@
     color: #1E0606;
     margin-bottom: 26px;
     margin-left: 120px;
+    width: 480px;
+    height: 88px;
 }
 
 /* отступ кнопки LEARN MORE*/
@@ -377,7 +403,7 @@
 
 /* h2 Design Life Kids */
 
-.Kids {
+.kids {
     margin-bottom: 50px;
 }
 
@@ -395,12 +421,12 @@
     height: 210px;
 }
 
-.Kids__list {
+.kids__list {
     display: flex;
     flex-direction: column;
 }
 
-.Kids__title {
+.kids__title {
     margin-bottom: 10px;
 }
 
@@ -413,7 +439,7 @@
 }
 
 /* h2 Design Life Kids*/
-.Kids__caption {
+.kids__caption {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -423,11 +449,11 @@
     color: #1E0606;
     margin-left: 30px;
     position: absolute;
-    top: 2018px
+    top: 1979px
 }
 
 /* <p About Us */
-.Kids__list__caption {
+.kids__list__caption {
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 400;
@@ -462,7 +488,7 @@
 }
 
 /* текст под заголовком */
-.Kids__list__caption2 {
+.kids__list__caption2 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -471,9 +497,11 @@
     color: #1E0606;
     margin-bottom: 20px;
     margin-left: 30px;
+    width: 484px;
+    height: 68px;
 }
 
-.Kids__list__contact__caption2 {
+.kids__list__contact__caption2 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -483,9 +511,11 @@
     margin-bottom: 30px;
     margin-left: 30px;
     margin-top: 40px;
+    width: 484px;
+    height: 68px;
 }
 
-.Kids__list__link {
+.kids__list__link {
     margin-left: 30px;
 }
 
