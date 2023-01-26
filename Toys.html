@@ -15,30 +15,30 @@
         <div class="header-div">
             <nav class="header__preview">
                 <img class="header__logo" src="./img/logo/logo.png" alt="logo">
-                <a class="header__preview__link" href="Blog.html">Blog</a>
-                <a class="header__preview__link" href="CatProducts.html">Catalog</a>
-                <a class="header__preview__link" href="index.html">About Us</a>
+                <a class="header__preview__link" aria-label="Переход по ссылке к блогу" href="Blog.html">Blog</a>
+                <a class="header__preview__link" aria-label="Переход по ссылке к категориям продуктов"  href="CatProducts.html">Catalog</a>
+                <a class="header__preview__link" aria-label="Переход по ссылке на главную страницу"  href="index.html">About Us</a>
             </nav>
         </div>
         <div class="header__contacts">
             <nav class="header__contacts__list undotted">
-                <a class="header__contacts__link" href="Toys.html"><img class="header__contacts__list__img" src="/img/search.svg" alt="search"></a>
-                <a class="header__contacts__link" href="contacts.html">Contact Us</a>
+                <a class="header__contacts__link" aria-label="Переход по ссылке игрушек" href="Toys.html"><img class="header__contacts__list__img" src="/img/search.svg" alt="search"></a>
+                <a class="header__contacts__link" aria-label="Переход по ссылке для связи с нами" href="contacts.html">Contact Us</a>
             </nav>
         </div> 
-    </header> 
+    </header>  
     <main>
-        <section class="toys">
+        <section class="toys content">
             <h1 class="toys__title">Toy for kids</h1>
             <ul class="toys__list undotted">
                 <li class="toys__list__item">
-                    <a class="toys__link" href="index.html">Home</a>
+                    <a class="toys__link" aria-label="Переход по ссылке на главную страницу" href="index.html">Home</a>
                 </li>
                 <li class="toys__list__item">
                     <img class="toys__img" src="/img/vector.png" alt="vector">
                 </li>
                 <li class="toys__list__item">
-                    <a class="toys__link" href="Toys.html">Catalog</a>
+                    <a class="toys__link" aria-label="Переход по ссылке категорий продуктов" href="CatProducts.html">Catalog</a>
                 </li>
                 <li class="toys__list__item">
                     <img class="toys__img" src="/img/vector.png" alt="vector">
@@ -50,151 +50,184 @@
         </section>
         <section class="filter">
             <h2 class="filter__title hidden">filters</h2>
-            <div class="filter__background">
-                <ul class="filter__list undotted">
-                <li class="filter__list__item">
-                <p class="filter__list__caption caption">Cost</p>
-                </li>
-                <li class="filter__list__item">
-                <input class="filter__input-range" type="range" min="0" max="500" step="2">
-                </li>
-                <div>
-                    <ul class="filter__list-flex undotted">
-                    <li class="filter__list__text__item-text1">
-                        0
-                    </li>
-                    <li class="filter__list__text__item-text2">
-                        500
-                    </li>
-                    </div>
+            <div class="filter__title-background">
+            <div class="filter__background content">
+                <div class="filter__background-range ">
+                    <ul class="filter__list undotted">
+                        <li class="filter__list__item">
+                            <p class="filter__list__caption caption">Cost</p>
+                        </li>
+                        <li class="filter__list__item">
+                            <input class="filter__input-range" aria-label="Выбор фильтра цены" type="range" min="0" max="500" step="2">
+                        </li>
+                    </ul>     
+                    <ul class="filter__list-dsp undotted">
+                        <li class="filter__list__text__item-text1">
+                            0
+                        </li>
+                        <li class="filter__list__text__item-text2">
+                            500
+                        </li>
+                    </ul>
+                </div>
                 <ul class="filter__list__color undotted">
                     <li>
                         <p class="filter__list__color__caption caption">Color</p>
                     </li>
                     <li class="filter__list__item">
-                        <input class="filter__input" type="checkbox" checked ><label>Black</label>
+                        <input class="filter__input" id="black" type="checkbox" name="black">
+                        <label class="filter__input__checkbox" aria-label="Выбор фильтра цвета - черный" for="black">Black</label>
                     </li>
                     <li class="filter__list__item">
-                        <input class="filter__input" type="checkbox"><label>Blue</label>
-                    </li>
-                    <li>
-                        <input class="filter__input" type="checkbox"><label>Green</label>
+                        <input class="filter__input" id="blue" type="checkbox" name="Blue">
+                        <label class="filter__input__checkbox" aria-label="Выбор фильтра цвета - Синия" for="blue">Blue</label>
                     </li>
                     <li class="filter__list__item">
-                        <input class="filter__input" type="checkbox"><label>White</label>
+                        <input class="filter__input" id="green" type="checkbox" name="Green">
+                        <label class="filter__input__checkbox" aria-label="Выбор фильтра цвета - Зеленый" for="green">Green</label>
+                    </li>
+                    <li class="filter__list__item">
+                        <input class="filter__input" id="white" type="checkbox" name="White">
+                        <label class="filter__input__checkbox" aria-label="Выбор фильтра цвета - Белый" for="white">White</label>
                     </li>
                 </ul>
                 <ul class="filter__list__delivery undotted">
-                    <li class="filter__list__item">
+                    <li class="filter__list__item-delivery">
                         <p class="filter__list__delivery__caption caption">Delivery</p>
                     </li>
-                    <li class="filter__list__item">
-                        <p class="filter__caption"><input class="filter__input" id="filter__list__item" type="radio" name="shipping">Free shipping</p>
+                    <li class="filter__list__item-delivery">
+                        <input class="filter__list__input-delivery" id="radio" type="radio" name="radio">
+                        <label class="filter__label__checkbox-delivery" aria-label="Выбор доставки - бесплатная доставка" for="radio">Free shipping</label>
                     </li>
-                    <li class="filter__list__item">
-                        <p class="filter__caption"><input class="filter__input" id="filter__list__item" type="radio"  name="shipping">Fast shipping</p>
+                    <li class="filter__list__item-delivery">
+                        <input class="filter__list__input-delivery" id="radio2" type="radio" name="radio">
+                        <label class="filter__label__checkbox-delivery" aria-label="Выбор доставки - быстрая доставка" for="radio2">Fast shipping</label>
                     </li>
                 </ul>
                 <div class="filter__list__amount-flex">
                     <ul class="filter__list__amount undotted">
-                        <li class="filter__list__item">
+                        <li class="filter__list__item-amount">
                             <p class="filter__list__amount__caption caption">Amount</p>
                         </li>
-                    <div class="filter__list__amount-flex undotted">
-                        <li class="filter__list__item">
-                            <button class="filter__btn-red" type="submit">0-5</button>
+                    </ul>    
+                    <div class="filter__list__amount-filter undotted">
+                        <ul class="filter__list__amount undotted">
+                        <li class="filter__list__item-amount">
+                            <button class="filter__btn" aria-label="Выбор количества товара - от 0 до 5" type="submit">0-5</button>
                         </li>
-                        <li class="filter__list__item">
-                            <button class="filter__btn" type="submit">10-20</button>
+                        <li class="filter__list__item-amount">
+                            <button class="filter__btn" aria-label="Выбор количества товара - от 10 до 20" type="submit">10-20</button>
                         </li>
-                        <li class="filter__list__item">
-                            <button class="filter__btn" type="submit">20-50</button>
+                        <li class="filter__list__item-amount">
+                            <button class="filter__btn" aria-label="Выбор количества товара - от 20 до 50" type="submit">20-50</button>
                         </li>
+                        </ul>
                         <ul class="filter__list__btn undotted">    
-                        <li class="filter__list__item">
-                            <button class="filter__btn-apply">Apply</button>
+                        <li class="filter__list__item-amount">
+                            <button aria-label="кнопка подтверждения выбора" class="filter__btn-apply">Apply</button>
                         </li>
+                        </ul>
                     </div>
+                </div>
+            </div>
+        </div>    
+        </section>
+        <section class="catalog ">
+            <h2 class="catalog__titel hidden ">Catalog</h2>
+            <div class="catalog__main">
+            <div class="catalog__list content">
+                <ul class="undotted">
+                    <li class="catalog__list__item">
+                        <img class="catalog__img" src="/img/toys/sharky.png" alt="SHARKY">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">SHARKY BEAN BAG CHAIR COVER</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$60.00 USD</p>
+                    </li>
+                </ul>
+                <ul class="undotted">
+                    <li class="catalog__list__item">
+                        <img class="catalog__img" src="/img/toys/BRASS.png" alt="BRASS">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">BRASS DECO FRAMES</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$66.00 USD</p>
+                    </li>
+                </ul>
+                <ul class="undotted">                
+                    <li class="catalog__list__item">
+                    <img class="catalog__img" src="/img/toys/cibo.png" alt="Cibo">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">CIBO FULL APRON</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$56.00 USD</p>
+                    </li>
                 </ul>
                 </div>
-            </div>    
-        </section>
-        <section class="catalog">
-            <h2 class="catalog__titel hidden">Catalog</h2>
-            <ul class="catalog__list undotted">
-                <li class="catalog__list__item">
-                    <img class="catalog__img" src="/img/toys/sharky.png" alt="SHARKY">
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption">SHARKY BEAN BAG CHAIR COVER</p>
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption-price">$60.00 USD</p>
-                </li>
-                <li class="catalog__list__item">
-                    <img class="catalog__img" src="/img/toys/BRASS.png" alt="BRASS">
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption">BRASS DECO FRAMES</p>
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption-price">$66.00 USD</p>
-                </li>
-                <li class="catalog__list__item">
-                    <img class="catalog__img" src="/img/toys/cibo.png" alt="Cibo">
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption">CIBO FULL APRON</p>
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption-price">$56.00 USD</p>
-                </li>
-                <li class="catalog__list__item">
+                <div class="catalog__list  content">
+                <ul class="undotted">                
+                    <li class="catalog__list__item">
                     <img class="catalog__img" src="/img/toys/gatcha.png" alt="Machine">
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption">GATCHA GATCHA GUMBALL MACHINE</p>
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption-price">$56.00 USD</p>
-                </li>
-                <li class="catalog__list__item">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">GATCHA GATCHA GUMBALL MACHINE</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$56.00 USD</p>
+                    </li>
+                </ul>
+                <ul class="undotted">                
+                    <li class="catalog__list__item">
                     <img class="catalog__img" src="/img/toys/candle.png" alt="CANDLE">
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption">CHRISTMAS ADVENT SCENTED CANDLE</p>
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption-price">$29.00 USD</p>
-                </li>
-                <li class="catalog__list__item">
-                    <img class="catalog__img" src="/img/toys/Light.png" alt="LIGHT">
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption">TANGLE SPINNING TEA LIGHT</p>
-                </li>
-                <li class="catalog__list__item">
-                    <p class="catalog__caption-price">$56.00 USD</p>
-                </li>
-                <li class="blog__list__item">
-                    <a class="blog__list__link" href="#"><img class="blog__list__img" src="/img/left_roll_blog.svg" alt="left_role"></a>
-                </li>
-                <li class="blog__list__item">
-                    <span class="blog__list__text">1</span>
-                </li>
-                <li class="blog__list__item">
-                    <a class="blog__list__link" href="#">2</a>
-                </li>
-                <li class="blog__list__item">
-                    <a class="blog__list__link" href="#">3</a>
-                </li>
-                <li class="blog__list__item">
-                    <a class="blog__list__link" href="#">4</a>
-                </li>
-                <li class="blog__list__item">
-                    <a class="blog__list__link" href="#"><img class="blog__list__img" src="/img/right_role_blog.svg" alt="right_role"></a>
-                </li>
-            </ul>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$29.00 USD</p>
+                    </li>
+                    </ul>
+                <ul class="undotted">
+                    <li class="catalog__list__item">
+                        <img class="catalog__img" src="/img/toys/Light.png" alt="LIGHT">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">TANGLE SPINNING TEA LIGHT</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$56.00 USD</p>
+                    </li>
+                </ul>
+                </div>
+            <div class="catalog__list-numbers  content">
+                <ul class="blog__list undotted">
+                    <li class="blog__list__item-leftroll">
+                        <a class="blog__list__link" aria-label="Переход на предыдущую страницу товаров" href="#"><img class="blog__list__img" src="/img/left_roll_blog.svg" alt="left_role"></a>
+                    </li>
+                    <li class="blog__list__item">
+                        <span class="blog__list__text">1</span>
+                    </li>
+                    <li class="blog__list__item">
+                        <a class="blog__list__link" aria-label="Переход на страницу товаров" href="#">2</a>
+                    </li>
+                    <li class="blog__list__item">
+                        <a class="blog__list__link" aria-label="Переход на страницу товаров" href="#">3</a>
+                    </li>
+                    <li class="blog__list__item">
+                        <a class="blog__list__link" aria-label="Переход на страницу товаров" href="#">4</a>
+                    </li>
+                    <li class="blog__list__item-rightroll">
+                        <a class="blog__list__link" aria-label="Переход на слудующую страницу товаров" href="#"><img class="blog__list__img" src="/img/right_role_blog.svg" alt="right_role"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>    
         </section>
     </main>
     <footer class="footer ">
@@ -203,23 +236,23 @@
                 <div class="footer__navigation__block">
                 <p class="footer__navigation__block__caption">Navigation</p>
                 <hr class="footer__navigation__line">
-                <a class="footer__navigation__link" href="index.html">About Us</a>
-                <a class="footer__navigation__link" href="Blog.html">Blog</a>
-                <a class="footer__navigation__link" href="#">Design Services</a>
-                <a class="footer__navigation__link" href="#">Featured On</a>
-                <a class="footer__navigation__link" href="#">2018 Holiday Catalog</a>
-                <a class="footer__navigation__link" href="#">Shop By Designer</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке на главную страницу" href="index.html">About Us</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке на страницу блога" href="Blog.html">Blog</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Design Services" href="#">Design Services</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Featured On" href="#">Featured On</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке 2018 Holiday Catalog" href="#">2018 Holiday Catalog</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Shop By Designer" href="#">Shop By Designer</a>
                 </div>
             </div>
             <div class="footer__inform__block__contactus">
                 <p class="footer__navigation__block__caption">Customer Information</p>
                 <hr class="footer__navigation__line">
-                <a class="footer__inform__link" href="contacts.html">Contact Us</a>
-                <a class="footer__inform__link" href="#">Sale Exclusions</a>
-                <a class="footer__inform__link" href="#">Shipping & Returns</a>
-                <a class="footer__inform__link" href="#">Terms & Conditions</a>
-                <a class="footer__inform__link" href="#">Privacy Policy</a>
-                <a class="footer__inform__link" href="Toys.html">Search</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке для контакта с нами" href="contacts.html">Contact Us</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Sale Exclusions" href="#">Sale Exclusions</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Shipping & Returns" href="#">Shipping & Returns</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Terms & Conditions" href="#">Terms & Conditions</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Privacy Policy" href="#">Privacy Policy</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Search" href="Toys.html">Search</a>
             </div>    
             <div class="footer__inform__block__connect">
                 <p class="footer__navigation__block__caption">Connect</p>
@@ -229,10 +262,10 @@
                     <button class="footer__connect__btn" type="submit">Join</button>
                 </div>
                 <nav class="footer__inform__block__connect__link">
-                    <a class="footer__connect__link " href="#"><img class="footer__connect__img" src="/img/social/faceb.svg" alt="social"></a>
-                    <a class="footer__connect__link" href="#"><img class="footer__connect__img" src="/img/social/tweeet.svg" alt="social"></a>
-                    <a class="footer__connect__link" href="#"><img class="footer__connect__img" src="/img/social/Pinterest.svg" alt="social"></a>
-                    <a class="footer__connect__link" href="#"><img class="footer__connect__img" src="/img/social/inst.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для фейсбука" href="#"><img class="footer__connect__img" src="/img/social/faceb.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для твиттера" href="#"><img class="footer__connect__img" src="/img/social/tweeet.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для Пайинтреса" href="#"><img class="footer__connect__img" src="/img/social/Pinterest.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для Инстаграмма" href="#"><img class="footer__connect__img" src="/img/social/inst.svg" alt="social"></a>
                 </nav>
             </div>
         </div>
@@ -248,8 +281,8 @@
                     <img class="footer__navigation__img" src="/img/star.png" alt="star">
                     <img class="footer__navigation__img" src="/img/star.png" alt="star">
                 </nav>
-                <a class="footer__inform__link-copy" href="#">Copyright © 2018 Dlk • Design Life Kids</a>
-                <a class="footer__inform__link-dl" href="#">Web Design — Direct Line Development</a>
+                <a class="footer__inform__link-copy" aria-label="Переход по ссылке авторских прав" href="#">Copyright © 2018 Dlk • Design Life Kids</a>
+                <a class="footer__inform__link-dl" aria-label="Переход по ссылке Web Design — Direct Line Development" href="#">Web Design — Direct Line Development</a>
             </div>
     </footer>
 </body>

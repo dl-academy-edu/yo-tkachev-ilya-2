@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .contactUs__list__link {
@@ -63,30 +63,88 @@
 
 }
 
+.contactUs__label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+}
+
 .contactUs__input {
     width: 600px;
     height: 50px;
+    border: none;
 }
 
 .contactUs__input-phone {
     width: 290px;
     height: 50px;
+    border: none;
 }
 
 .contactUs__input-email {
     width: 290px;
     height: 50px;
-    margin-left: 20px;
+    border: none;
 }
-
-.contactUs-chekbox {
-    display: flex;
+/* checkbox */
+.contactUs-checkbox {
     margin-top: 20px;
     margin-bottom: 18px;
-
+    margin-right: 15px;
+    border: none;
+    
 }
 
-.contactUs__chekbox {
+.contactUs__input__checkbox {
+    border: 2px solid #C29974;
+    border-radius: 3px;
+    margin-right: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+.contactUs__input-message {
+    border: none;
+}
+
+.table {
+    border: none;
+}
+
+.contactUs__list__item {
+    display: flex;
+}
+
+.contactUs__label__checkbox {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    margin-right: 15px;
+}
+
+.contactUs__label__checkbox::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+    background-image: url("/img/chekbox/chekbox.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-left: -34px;
+}
+
+.contactUs__input__checkbox:checked + .contactUs__label__checkbox::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+    background-image: url("/img/chekbox/chekboxNoacvite.jpg");
     width: 19px;
     height: 19px;
 }
@@ -111,14 +169,16 @@
 
 }
 
-
+.contactUs-phone__nav-email {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
 
 .contactUs__box__desc {
     padding-top: 14px;
 
 }
-
-
 
 .contactUs__box__elem {
     font-family: 'Open Sans', sans-serif;

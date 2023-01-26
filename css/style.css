@@ -25,6 +25,13 @@
     margin-top: 10px;
 }
 
+.banner__quote__list__underline-anothercolor {
+    background: #D6CAC2;
+    width: 31px;
+    height: 3px; 
+    margin-top: 10px;
+}
+
 
 .banner__quote__list {
     display: flex;

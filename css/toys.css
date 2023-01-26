@@ -19,7 +19,6 @@
     color: #1E0606;
 }
 
-
 /* заголовок h1 */
 .toys__title {
     font-family: 'Montserrat', sans-serif;
@@ -29,12 +28,9 @@
     line-height: 49px;
     text-transform: uppercase;
     color: #1E0606;
-    margin-left: 110px;
 }
 
-
 .toys__list {
-    margin-left: 110px;
     margin-top: 15px;
     display: flex;
     align-items: center 
@@ -65,40 +61,25 @@
     opacity: 0.5;
 }
 
-.filter {
+
+.filter__background {
+    display: flex;
+    width: 1400px;
+    height: 254px;
+    /* margin-left: 110px; */
+}
+
+.filter__title-background {
     margin-top: 50px;
     background: rgba(125, 151, 218, 0.2);
     padding-top: 42px;
     padding-bottom: 44px;
 }
 
-
-.filter__list__caption {
-    margin-right: 256px;
-}
-
-
-.filter__list__color__caption {
-    margin-right: 156px;
-}
-
-.filter__list__delivery__caption {
-    margin-right: 133px;
-}
-
-.filter__list__amount__caption {
-    margin-right: 235px;
-}
-
-
-.filter__list__text {
-    display: flex;
-    
-}
-
-.filter__list-flex {
+.filter__list-dsp {
     display: flex;
 }
+
 
 .filter__list__text__item-text1 {
     font-family: 'Open Sans';
@@ -119,7 +100,21 @@
     margin-left: 170px;
 }
 
-.filter__input {
+.filter__list__color__caption {
+    margin-bottom: 15px;
+}
+
+
+.filter__input-radio {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    border: 2px solid #C29974;
+    border-radius: 3px;
+    margin-top: 16px;
     margin-right: 10px;
 }
 
@@ -129,22 +124,30 @@
 
 .filter__list__amount-flex {
     display: flex;
+    flex-direction: column;
     
+}
+
+.filter__list__amount-filter {
+    display: flex;
+}
+
+.filter__list__amount {
+    display: flex;
+}
+
+
+
+
+.filter__list__color {
+    margin-left: 94px;
+    margin-right: 156px;
 }
 
 .filter__list__btn {
     margin-left: 60px;
 }
 
-.filter__btn-apply {
-    margin-left: 60px;
-}
-
-
-.filter__background {
-    display: flex;
-    margin-left: 110px;
-}
 
 .filter__list__item {
     font-family: 'Open Sans', sans-serif;
@@ -153,6 +156,80 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
+    display: flex;
+}
+
+.filter__input {
+    margin-right: 10px;
+    margin-bottom: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    border-radius: 3px;
+    width: 19px;
+    height: 19px;
+}
+
+
+.filter__input__checkbox::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+    background-image: url("/img/chekbox/chekbox.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-left: -29px;
+}
+
+.filter__input:checked + .filter__input__checkbox::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+    background-image: url("/img/chekbox/chekboxNoacvite.jpg");
+    width: 19px;
+    height: 19px;
+}
+
+.filter__label__checkbox-delivery {
+    margin-left: 10px;
+}
+
+.filter__label__checkbox-delivery::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+    background-image: url("/img/chekbox/Ellipse.png"), url("/img/chekbox/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+}
+
+.filter__list__input-delivery:checked + .filter__label__checkbox-delivery::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+
+    background-image: url("/img/chekbox/elips_pressed.png"),url("/img/chekbox/background.jpg");
+    width: 19px;
+    height: 19px;
+}
+
+.filter__list__input-delivery {
+    margin-bottom: 15px;
+}
+
+.filter__list__delivery__caption {
+    margin-right: 134px;
+    margin-bottom: 16px;
+
 }
 
 .filter__btn {
@@ -166,8 +243,8 @@
 
 .filter__btn-red {
     padding: 6px 29px; /*нечетное, чтобы выровнять */
-    background: #F3D0DB;
     border: 0px;
+    background: #FFFFFF;
     font-family: 'Open Sans' sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -201,6 +278,17 @@
 }
 
 /* h2 Catalog*/
+
+.catalog__list {
+    display: flex;
+    
+}
+
+.catalog__main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 .catalog__caption {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -219,4 +307,37 @@
     line-height: 22px;
     text-align: center;
     color: #1E0606;
+    margin-top: 15px;
+}
+
+.catalog__list-numbers {
+    display: flex;
+    margin-top: 78px;
+
+}    
+
+.blog__list {
+    display: flex;
+}
+
+.blog__list__item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #C29974;
+}
+
+.blog__list__item-leftroll {
+    margin-right: 457px;
+}
+
+.blog__list__item-rightroll {
+    margin-left: 393px;
+}
+
+.blog__list__item {
+    margin-right: 64px;
 }
