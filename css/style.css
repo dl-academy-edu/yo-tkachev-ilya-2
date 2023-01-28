@@ -717,7 +717,7 @@
 
 
 /* стелизация кнопки закрытия */
-.popup-img {
+.closeform {
     display: flex;
     position: absolute;
     top: 8px;
