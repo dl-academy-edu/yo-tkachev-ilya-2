@@ -240,9 +240,7 @@
     width: 80px;
     height: 35px;
     transition: all 0.3s;
-    
-    /* padding-left: 20px;
-    padding-top: 10px; */
+
 }
 
 .amount input[type="radio"] {
@@ -251,77 +249,6 @@
 
 .amount input[type="radio"]:checked + label {
     background: #F3D0DB;
-}
-
-/* .filter__label__checkbox-amount::before {
-    position: absolute;
-    content: ' ';
-    cursor: pointer;
-    background: #FFFFFF;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat, repeat;
-    width: 80px;
-    height: 35px;
-    margin-left: -19px;
-}
-
-.filter__list__input-amount:checked + .filter__label__checkbox-amount::before {
-    position: absolute;
-    content: ' ';
-    cursor: pointer;
-    background-image: url("/img/toys/activeRed.png");
-    width: 80px;
-    height: 35px;
-    
-} */
-
-
-
-/* .text-one {
-    display: flex;
-    position: absolute;
-    z-index: 10;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1E0606;
-    top: 80%;
-    left: 59%;
-}
-
-.text-two {
-    display: flex;
-    position: absolute;
-    z-index: 10;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1E0606;
-    top: 80%;
-    left: 59%;
-}
-
-.text-three {
-    display: flex;
-    position: absolute;
-    z-index: 10;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1E0606;
-    top: 80%;
-    left: 59%;
-} */
-
-.filter__label__checkbox-amount {
-
 }
 
 
@@ -337,15 +264,10 @@
     height: 4px;
 }
 
-
-
 .filter__list__delivery__caption {
     margin-right: 134px;
     margin-bottom: 16px;
-
 }
-
-
 
 .filter__btn-apply {
     font-family: 'Open Sans' sans-serif;

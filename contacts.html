@@ -65,12 +65,12 @@
                 <fieldset class="table">            
                     <ul class="contactUs__list undotted">
                     <li class="contactUs__list__item">
-                        <input class="contactUs__input__checkbox" id="checkbox" type="checkbox" name="browser">
-                        <label class="contactUs__label__checkbox" aria-label="соглашение на обработку персональных данных" for="checkbox">By clicking on the button, you consent to the processing of your personal data</label>
+                        <input type="checkbox" class="contactUs__input__checkbox" id="checkbox" type="checkbox" name="browser" onChange="document.querySelector('.btn-verif').disabled=(this.checked ? false : true);">
+                        <label class="contactUs__label__checkbox" for="checkbox"> By clicking on the button, you consent to the processing of your personal data</label>
                     </li>
                     </ul>
                 </fieldset>
-                <button class="btn">Submit</button>
+                <button class="btn-verif">Submit</button>
             </form>    
             <div class="contactUs-caption">
                 <ul class="contactUs__list-caption undotted">
@@ -143,5 +143,6 @@
                 <a class="footer__inform__link-dl" aria-label="Переход по ссылке Web Design — Direct Line Development" href="#">Web Design — Direct Line Development</a>
             </div>
     </footer>
+    <script src="/js/script.js"></script>
 </body>
 </html>

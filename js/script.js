@@ -2,7 +2,8 @@ const popup = document.querySelector(".popup");
 const openBtn = document.querySelector(".banner__btn-js");
 const closeBtn = document.querySelector(".popup-img")
 const focustInput = document.querySelector(".contactUs__input")
-
+const verification = document.querySelector(".input-js")
+const btnverification = document.querySelector(".btn-js")
 
 openBtn.addEventListener("click", function()  {
     popup.classList.add("open")
@@ -18,3 +19,4 @@ window.addEventListener("keydown", function(e) {
         popup.classList.remove("open")
     }
 })
+

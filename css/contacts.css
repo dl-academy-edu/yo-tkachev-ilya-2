@@ -138,6 +138,7 @@
     width: 19px;
     height: 19px;
     margin-left: -34px;
+    
 }
 
 .contactUs__input__checkbox:checked + .contactUs__label__checkbox::before {
@@ -147,7 +148,29 @@
     background-image: url("/img/chekbox/chekboxNoacvite.jpg");
     width: 19px;
     height: 19px;
+    
 }
+
+.btn-verif {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #C1C1C1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 9px 22px;
+    display: inline-block
+}
+
+
 
 .contactUs__caption {
     font-family: 'Open Sans';

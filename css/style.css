@@ -1,6 +1,7 @@
 /* отступы блоком */
 .banner {
     background: #EEE4DB;
+    margin-top: 130px;
 
 }
 
@@ -627,6 +628,7 @@
     width: 19px;
     height: 19px;
     margin-left: -34px;
+    
 }
 
 .contactUs__input__checkbox:checked + .contactUs__label__checkbox::before {
@@ -636,6 +638,7 @@
     background-image: url("/img/chekbox/chekboxNoacvite.jpg");
     width: 19px;
     height: 19px;
+    
 }
 
 .contactUs__caption {
