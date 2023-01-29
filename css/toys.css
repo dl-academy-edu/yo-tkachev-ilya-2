@@ -120,6 +120,7 @@
 
 .filter__input-range {
     width: 188px;
+
 }
 
 .filter__list__amount-flex {
@@ -130,12 +131,20 @@
 
 .filter__list__amount-filter {
     display: flex;
+    margin-top: 20px;
 }
 
-.filter__list__amount {
-    display: flex;
+.filter__list__input-amount {
+    background: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding-top: 7px;
+    padding-left: 20px;
 }
-
 
 
 
@@ -186,7 +195,7 @@
     margin-left: -29px;
 }
 
-.filter__input:checked + .filter__input__checkbox::before {
+.filter__input:checked + .filter__input__checkbox1::before {
     position: absolute;
     content: ' ';
     cursor: pointer;
@@ -222,9 +231,113 @@
     height: 19px;
 }
 
+.amount {
+    display: flex;
+}
+
+.amount label {
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    transition: all 0.3s;
+    
+    /* padding-left: 20px;
+    padding-top: 10px; */
+}
+
+.amount input[type="radio"] {
+    display: none;
+}
+
+.amount input[type="radio"]:checked + label {
+    background: #F3D0DB;
+}
+
+/* .filter__label__checkbox-amount::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+    background: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    width: 80px;
+    height: 35px;
+    margin-left: -19px;
+}
+
+.filter__list__input-amount:checked + .filter__label__checkbox-amount::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+    background-image: url("/img/toys/activeRed.png");
+    width: 80px;
+    height: 35px;
+    
+} */
+
+
+
+/* .text-one {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    top: 80%;
+    left: 59%;
+}
+
+.text-two {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    top: 80%;
+    left: 59%;
+}
+
+.text-three {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    top: 80%;
+    left: 59%;
+} */
+
+.filter__label__checkbox-amount {
+
+}
+
+
+
 .filter__list__input-delivery {
     margin-bottom: 15px;
 }
+
+.filter-slider {
+    margin: 0;
+    background:#C29974;
+    width: 188px;
+    height: 4px;
+}
+
+
 
 .filter__list__delivery__caption {
     margin-right: 134px;
@@ -232,32 +345,7 @@
 
 }
 
-.filter__btn {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1E0606;
-}
 
-.filter__btn-red {
-    padding: 6px 29px; /*нечетное, чтобы выровнять */
-    border: 0px;
-    background: #FFFFFF;
-    font-family: 'Open Sans' sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1E0606;
-}
-
-.filter__btn {
-    padding: 6px 20px;
-    border: 0px;
-    background: #FFFFFF;
-}
 
 .filter__btn-apply {
     font-family: 'Open Sans' sans-serif;
