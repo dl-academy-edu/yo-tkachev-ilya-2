@@ -2,8 +2,9 @@ const popup = document.querySelector(".popup");
 const openBtn = document.querySelector(".banner__btn-js");
 const closeBtn = document.querySelector(".popup-img")
 const focustInput = document.querySelector(".contactUs__input")
-const verification = document.querySelector(".input-js")
-const btnverification = document.querySelector(".btn-js")
+const disable = document.querySelector(".btn-verif")
+const verif = document.getElementById("box")
+
 
 openBtn.addEventListener("click", function()  {
     popup.classList.add("open")
@@ -20,3 +21,16 @@ window.addEventListener("keydown", function(e) {
     }
 })
 
+
+function fun1() {
+    var chbox;
+    chbox = document.getElementById('box');
+        if (chbox.checked) {
+            disable.classList.add("active")
+            document.querySelector('.btn-verif').disabled = false;
+        }
+        else {
+            disable.classList.remove("active")
+            document.querySelector('.btn-verif').disabled = true;
+        }
+    }

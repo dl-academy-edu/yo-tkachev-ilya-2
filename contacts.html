@@ -65,12 +65,12 @@
                 <fieldset class="table">            
                     <ul class="contactUs__list undotted">
                     <li class="contactUs__list__item">
-                        <input type="checkbox" class="contactUs__input__checkbox" id="checkbox" type="checkbox" name="browser" onChange="document.querySelector('.btn-verif').disabled=(this.checked ? false : true);">
-                        <label class="contactUs__label__checkbox" for="checkbox"> By clicking on the button, you consent to the processing of your personal data</label>
+                        <input type="checkbox" class="contactUs__input__checkbox" id="box" type="checkbox" name="browser" onchange="fun1()">
+                        <label class="contactUs__label__checkbox" for="box"> By clicking on the button, you consent to the processing of your personal data</label>
                     </li>
                     </ul>
                 </fieldset>
-                <button class="btn-verif">Submit</button>
+                <button class="btn-verif" disabled>Submit</button>
             </form>    
             <div class="contactUs-caption">
                 <ul class="contactUs__list-caption undotted">
