@@ -58,18 +58,10 @@
                             <p class="filter__list__caption caption">Cost</p>
                         </li>
                         <li class="filter__list__item">
-                            <div class="slider">
-                                <input class="filter__input-range" aria-label="Выбор фильтра цены от 0 до 500" type="range" min="0" max="500" step="2">
+                            <div>
+                                <input type="range" value="380" min="0" max="500" oninput="rangevalue.value=value"/>
                             </div>
                     </ul>     
-                    <ul class="filter__list-dsp undotted">
-                        <li class="filter__list__text__item-text1">
-                            0
-                        </li>
-                        <li class="filter__list__text__item-text2">
-                            500
-                        </li>
-                    </ul>
                 </div>
                 <ul class="filter__list__color undotted">
                     <li>
@@ -111,19 +103,6 @@
                             <p class="filter__list__amount__caption caption">Amount</p>
                         </li>
                     </ul>    
-                    <div class="filter__list__amount-filter">
-                            <!-- <nav class="filter__list__item-amount">
-                                <input class="filter__list__input-amount" id="amount1" type="radio" name="amount">
-                                <label class="filter__label__checkbox-amount" aria-label="Выбор цены от одного до пяти" for="amount1">0-5</label>
-                            </nav>
-                            <nav class="filter__list__item-amount">
-                                <input class="filter__list__input-amount" id="amount2" type="radio" name="amount">
-                                <label class="filter__label__checkbox-amount" aria-label="Выбор цены от десяти до двадцати" for="amount2">10-20</label>
-                            </nav>
-                            <nav class="filter__list__item-amount">
-                                <input class="filter__list__input-amount" id="amount3" type="radio" name="amount">
-                                <label class="filter__label__checkbox-amount" aria-label="Выбор цены от двадцати до пятидесяти" for="amount3">20-50</label>
-                            </nav> -->
                             <form class="amount">
                                 <nav class="filter__list__item-amount">
                                 <input type="radio" id="one" name="skills" value="0-5">
@@ -137,14 +116,10 @@
                                 <input type="radio" id="three" name="skills" value="20-50">
                                 <label class="filter__list__input-amount" for="three">20-50</label>
                                 </nav>
+                                <nav class="filter__list__item-apply">
+                                <button aria-label="кнопка подтверждения выбора" class="filter__btn-apply">Apply</button>
+                                </nav>
                             </form>
-                        <div>
-                        <ul class="filter__list__btn undotted">    
-                        <li class="filter__list__item-amount">
-                            <button aria-label="кнопка подтверждения выбора" class="filter__btn-apply">Apply</button>
-                        </li>
-                        </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -303,5 +278,6 @@
                 <a class="footer__inform__link-dl" aria-label="Переход по ссылке Web Design — Direct Line Development" href="#">Web Design — Direct Line Development</a>
             </div>
     </footer>
+    <script src="/js/slider.js"></script>
 </body>
 </html>

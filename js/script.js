@@ -6,6 +6,7 @@ const disable = document.querySelector(".btn-verif")
 const verif = document.getElementById("box")
 
 
+
 openBtn.addEventListener("click", function()  {
     popup.classList.add("open")
     focustInput.focus()
@@ -34,3 +35,6 @@ function fun1() {
             document.querySelector('.btn-verif').disabled = true;
         }
     }
+
+
+
