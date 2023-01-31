@@ -33,6 +33,10 @@
     margin-top: 10px;
 }
 
+.banner__quote__list__underline-anothercolor:hover {
+    background: rgba(30, 6, 6, 0.6);
+}
+
 
 .banner__quote__list {
     display: flex;
@@ -178,6 +182,10 @@
 
 }
 
+.products__list__link:hover {
+    text-decoration: underline;
+}
+
 /* отсутпы картинок */
 .products__list__img-apparel {
     padding: 46px 18px;
@@ -254,6 +262,7 @@
     margin-right: 6px;
     padding: 6px 12px;
 }
+
 
 /* свойства кнопки вправо */
 .products__list__btn-right {
@@ -724,7 +733,16 @@
     position: absolute;
     top: 8px;
     left: 700px;
-    background: #000000;
+    background: none;
+    border: none;
+}
+
+.closeform:hover {
+    opacity: 0.5;
+}
+
+.closeform:active {
+    opacity: 0.2;
 }
 
 .btn-verif {
@@ -764,4 +782,14 @@
     flex-grow: 0;
     padding: 9px 22px;
     display: inline-block
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(125, 151, 218, 0.8);
+    z-index: -1;
 }

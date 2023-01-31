@@ -248,11 +248,12 @@
                 <a class="footer__inform__link-dl" aria-label="Переход по ссылке Web Design — Direct Line Development" href="#">Web Design — Direct Line Development</a>
             </div>
     </footer>
-    <div class="popup">    
+    <div class="popup">
+        <div class="overlay"></div>    
         <form class="contactUs__box" action="aaa@aa.com">
             <div class="contactUs-block">
                 <label class="contactUs__label" aria-label="Форма заполнения Имени" for="name">Name</label>
-                <input class="contactUs__input" placeholder="Ivan Ivanov" type="text" id="name">
+                <input class="contactUs__input" type="text" id="name">
             </div>
             <div class="contactUs-phone">
                 <nav class="contactUs-phone__nav">
@@ -272,11 +273,12 @@
                 <ul class="contactUs__list undotted">
                 <li class="contactUs__list__item">
                     <input type="checkbox" class="contactUs__input__checkbox" id="box" type="checkbox" name="browser" onchange="fun1()">
-                    <label class="contactUs__label__checkbox" for="box"> By clicking on the button, you consent to the processing of your personal data</label>
+                    <label class="contactUs__label__checkbox" aria-label="Подтверждение об обработки персональных данных" for="box"> By clicking on the button, you consent to the processing of your personal data</label>
                 </li>
                 </ul>
             </fieldset>
-            <button id="btn" class="btn-verif" disabled>Submit</button>
+            <button id="btn" class="btn-verif btn" disabled>Submit</button>
+            <button class="closeform" type="button"><img class="popup-img" src="/img/chekbox/close.png" alt="X"></button>
         </form>
     </div>
     <script src="/js/script.js"></script>     

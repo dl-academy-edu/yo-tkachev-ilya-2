@@ -50,6 +50,17 @@ a {
     display: inline-block
 }
 
+.btn:hover {
+    background: #C29974;
+}
+
+.btn:active {
+    background: #CFAF91;
+}
+
+.btn:disabled {
+    background: #C7C1C1;
+}
 /* HEADER */
 
 .header {
@@ -76,10 +87,25 @@ a {
     color: #1E0606;
 }
 
+.header__preview__link:hover {
+    opacity: 0.5;
+}
+
+.header__preview__link:active {
+    opacity: 0.2;
+}
+
 .header__logo {
     margin-right: 60px;
 }
 
+.header__logo:hover {
+    opacity: 0.5;
+}
+
+.header__logo:active {
+    opacity: 0.2;
+}
 
 .header__contacts__list {
     display: flex;
@@ -98,6 +124,15 @@ a {
     align-items: center;
     text-transform: uppercase;
     color: #1E0606;
+}
+
+
+.header__contacts__link:hover {
+    opacity: 0.5;
+}
+
+.header__contacts__link:active {
+    opacity: 0.2;
 }
 /* HEADER end */
 
@@ -231,6 +266,11 @@ a {
     padding-bottom: 10px;
 }
 
+.footer__connect__input:hover {
+    background: #666666;
+    border: 1px solid #FFFDFD;
+}
+
 .footer__inform__block__connect__link {
     margin-top: 20px;
 }
@@ -272,6 +312,14 @@ a {
     margin-right: 10px;
 }
 
+.footer__connect__link:hover {
+    opacity: 0.5;
+}
+
+.footer__connect__link:active {
+    opacity: 0.2;
+}
+
 .footer__navigation__block__caption {
     margin-bottom: 20px;
 }
@@ -284,8 +332,24 @@ a {
     margin-bottom: 15px;
 }
 
+.footer__navigation__link:hover {
+    opacity: 0.5;
+}
+
+.footer__navigation__link:active {
+    opacity: 0.2;
+}
+
 .footer__inform__link {
     margin-bottom: 15px;
+}
+
+.footer__inform__link:hover {
+    opacity: 0.5;
+}
+
+.footer__inform__link:active {
+    opacity: 0.2;
 }
 
 .footer__navigation__list__rating {
@@ -310,6 +374,11 @@ a {
     align-items: center;
     color: #A2A2A2;
     margin-left: 110px;
+}
+
+.footer__inform__link-dl:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
 }
 
 .footer__inform__list__nav {
