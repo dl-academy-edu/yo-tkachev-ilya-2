@@ -172,6 +172,10 @@
     padding: 46px 18px;
 }
 
+.products__list__link:hover {
+    text-decoration: underline;
+}
+
 .products__list__link {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;

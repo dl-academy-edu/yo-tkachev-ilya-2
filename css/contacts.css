@@ -63,16 +63,6 @@
 
 }
 
-.contactUs__label {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #1E0606;
-}
-
-
 .contactUs__input {
     width: 600px;
     height: 50px;
@@ -84,12 +74,24 @@
     font-size: 18px;
     line-height: 25px;
     color: #1E0606;
+    margin-bottom: 20px;
+}
+
+.contactUs__input:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
 }
 
 .contactUs__input-phone {
     width: 290px;
     height: 50px;
     border: none;
+    margin-bottom: 20px;
+}
+
+.contactUs__input-phone:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
 }
 
 .contactUs__input-email {
@@ -97,7 +99,11 @@
     height: 50px;
     border: none;
 }
-/* checkbox */
+
+.contactUs__input-email:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
 
 .contactUs__input__checkbox {
     border: 2px solid #C29974;
@@ -107,8 +113,21 @@
     height: 19px;
 }
 
+.contactUs__input__checkbox:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
+
 .contactUs__input-message {
     border: none;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.contactUs__input-message:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
 }
 
 .table {

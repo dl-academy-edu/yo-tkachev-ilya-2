@@ -26,7 +26,7 @@ a {
 
 .content {
     max-width: 1180px;
-    margin: auto;
+    margin-left: 110px;
 
 }
 
@@ -45,7 +45,7 @@ a {
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding: 9px 22px;
+    padding: 9px 21px;
     background: #000000;
     display: inline-block
 }
@@ -66,6 +66,7 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top:50px;
 }
 
@@ -96,7 +97,7 @@ a {
 }
 
 .header__logo {
-    margin-right: 60px;
+    margin-right: 57px;
 }
 
 .header__logo:hover {
@@ -114,7 +115,7 @@ a {
 }
 
 .header__contacts__link {
-    margin-left: 24px;
+    margin-left: 26px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -158,14 +159,6 @@ a {
 }
 
 
-.footer__navigation__line {
-    background: #666666;
-    width: 380px;
-    margin-right: 20px;
-    
-    
-}
-
 .footer__navigation__list__line-all {
     background: #666666;
 }
@@ -180,7 +173,7 @@ a {
 }
 
 .footer__navigation__caption {
-    margin-right: 25px;
+    margin-right: 28px;
 }
 
 
@@ -260,10 +253,10 @@ a {
     align-items: center;
     color: #EBEBEB;
     border: 0;
-    width: 380px;
+    width: 298px;
     padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .footer__connect__input:hover {
@@ -272,7 +265,7 @@ a {
 }
 
 .footer__inform__block__connect__link {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 /* свойства для кнопки */
@@ -291,10 +284,10 @@ a {
     order: 0;
     flex-grow: 0;
     background: #000000;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 22px;
-    padding-left: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    padding-left: 21px;
 }
 
 .footer__navigation__block__caption {
@@ -308,9 +301,6 @@ a {
     color: #A2A2A2;
 }
 
-.footer__connect__link {
-    margin-right: 10px;
-}
 
 .footer__connect__link:hover {
     opacity: 0.5;
@@ -325,7 +315,31 @@ a {
 }
 
 .footer__navigation__line {
+    margin-bottom: 31px;
+    background: #666666;
+    width: 380px;
+    margin-right: 20px;
+
+}
+
+.footer__connect__img {
+    margin-right: 6px;
+}
+
+.footer__navigation__line-contacts {
+    margin-bottom: 29px;
+    background: #666666;
+    width: 380px;
+    margin-right: 17px;
+
+}
+
+.footer__navigation__line-connect {
     margin-bottom: 28px;
+    background: #666666;
+    width: 380px;
+    margin-right: 17px;
+
 }
 
 .footer__navigation__link {
@@ -399,6 +413,7 @@ a {
 
 .footer__navigation__img {
     margin-right: 2px;
+    margin-top: 6px;
 }
 
 
@@ -409,4 +424,6 @@ a {
 .footer__navigation__list__underline-line {
     width: 1180px;
     background: #666666;
+    margin-top: 10px;
 }
+

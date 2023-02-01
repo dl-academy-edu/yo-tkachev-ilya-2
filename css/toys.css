@@ -257,6 +257,10 @@ input[type="range"]::-ms-track {
     padding-left: 20px;
 }
 
+.filter__list__input-amount:hover {
+    background: #EDDEEB;
+}
+
 .filter__list__item-apply {
     margin-left: 60px;
 }
@@ -413,6 +417,18 @@ input[type="range"]::-ms-track {
     margin-bottom: 60px;
 }
 
+.back-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E0606;
+
+}
+
 .catalog__caption {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -438,7 +454,8 @@ input[type="range"]::-ms-track {
     display: flex;
     margin-top: 78px;
 
-}    
+}
+
 
 .blog__list {
     display: flex;
@@ -464,4 +481,8 @@ input[type="range"]::-ms-track {
 
 .blog__list__item {
     margin-right: 64px;
+}
+
+.blog__list__link:hover {
+    color: #AAAAAA;
 }

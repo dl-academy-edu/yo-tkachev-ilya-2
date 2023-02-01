@@ -149,7 +149,21 @@
     margin-bottom: 15px;
 }
 
+.blog__list__caption-article:hover {
+    text-decoration: underline;
+}
+
 .mrg {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.blog__list__link:hover {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #AAAAAA;
 }

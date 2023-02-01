@@ -29,8 +29,8 @@
 .banner__quote__list__underline-anothercolor {
     background: #D6CAC2;
     width: 31px;
-    height: 3px; 
-    margin-top: 10px;
+    height: 3px;
+    border: none; 
 }
 
 .banner__quote__list__underline-anothercolor:hover {
@@ -44,8 +44,8 @@
 }
 
 .banner__quote__list__item {
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 28px;
+    margin-top: 17px;
 }
 
 
@@ -110,25 +110,22 @@
     align-self: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 90px;
+    margin-top: 89px;
 }
 
 
 
 .banner__designed__item {
+    margin-top: 18px;
     margin-left: 134px;
-    margin-bottom: 20px;
 }
 
-.banner__designed__item-sloven {
-    margin-top: 51px;
-}
 
 
 .banner__designed__img {
     position: absolute;
-    left: 47%;
-    top: 196px;
+    left: 29%;
+    top: 142px;
 }
 
 .banner__designed__item__caption {
@@ -156,7 +153,6 @@
 
 /* отступы блоком */
 .products {
-    margin-left: 110px;
     margin-right: 110px;
 }
 
@@ -206,8 +202,8 @@
     position: relative;
     background: #DBE4DB;
     /* margin-left: 128px; */
-    margin-top: 30px;
-    margin-bottom: 34px;
+    margin-top: 31px;
+
     margin-right: 20px;
 }
 
@@ -216,7 +212,7 @@
     position: relative;
     background: #EADDD3;
     margin-top: 30px;
-    margin-bottom: 34px;
+
     margin-right: 25px;
 }
 
@@ -225,7 +221,7 @@
     position: relative;
     background: #F8F2DA;
     margin-top: 30px;
-    margin-bottom: 34px;
+
     margin-right: 25px;
 }
 
@@ -234,14 +230,14 @@
     position: relative;
     background: #D5D4E1;
     margin-top: 30px;
-    margin-bottom: 34px;
+
     /* margin-right: 110px;  */
 }
 
 /* центровка ссылки на блок */
 .centered {
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
@@ -250,6 +246,7 @@
 /* свойства под кноки влево\вправа*/
 .products__list__roll {
     display: flex;
+    margin-top: 28px;
 }
 
 /* свойства кнопки влево */
@@ -258,9 +255,7 @@
     box-sizing: border-box;
     background: rgba(112, 187, 220, 0.2);
     border: none;
-
-    margin-right: 6px;
-    padding: 6px 12px;
+    padding: 5px 12px;
 }
 
 
@@ -271,8 +266,8 @@
     background: rgba(112, 187, 220, 0.2);
     border: none;
 
-    padding: 6px 12px;
-    margin-right: 32px;
+    padding: 5px 12px;
+    margin-right: 17px;
     margin-bottom: 90px;
 }
 
@@ -323,7 +318,7 @@
     text-transform: uppercase;
     color: #1E0606;
     padding-top: 30px;
-    padding-bottom: 18px;
+    padding-bottom: 5px;
     margin-left: 120px;
 }
 
@@ -340,6 +335,8 @@
 /* цвет ссылки delivery */
 .delivery__list__link-delivery {
     background: rgba(112, 187, 220, 0.2);
+    width: 326px;
+    height: 55px;
     padding-left: 60px;
     padding-right: 180px;
     padding-top: 12px;
@@ -355,7 +352,7 @@
     font-size: 26px;
     line-height: 34px;
     color: #1E0606;
-    margin-top: 20px;
+    margin-top: 9px;
     margin-bottom: 22px;
     margin-left: 120px;
 }
@@ -397,8 +394,8 @@
     color: #1E0606;
     margin-bottom: 26px;
     margin-left: 120px;
-    width: 480px;
-    height: 88px;
+    width: 469px;
+    height: 90px;
 }
 
 /* отступ кнопки LEARN MORE*/
@@ -411,7 +408,7 @@
 /* спонсоры - отступы*/
 .sponsots__list {
     display: flex;
-    margin-bottom: 90px;
+    margin-bottom: 116px;
 }
 
 .sponsots__list__img {
@@ -421,7 +418,7 @@
 /* h2 Design Life Kids */
 
 .kids {
-    margin-bottom: 50px;
+    margin-bottom: -2px;
 }
 
 .kids__div__design {
@@ -466,7 +463,7 @@
     color: #1E0606;
     margin-left: 30px;
     position: absolute;
-    top: 2075px
+    top: 2043px
 }
 
 /* <p About Us */
@@ -479,8 +476,9 @@
     color: #1E0606;
     margin-bottom: 10px;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 29px;
 }
+
 
 /* h2  Contacts*/
 .contacts__title {
@@ -526,7 +524,7 @@
     line-height: 22px;
     color: #1E0606;
     margin-bottom: 30px;
-    margin-left: 30px;
+    margin-left: 27px;
     margin-top: 40px;
     width: 484px;
     height: 68px;
@@ -580,6 +578,11 @@
     margin-bottom: 20px;
 }
 
+.contactUs__input:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
+
 .contactUs__input-phone {
     width: 290px;
     height: 50px;
@@ -587,10 +590,20 @@
     margin-bottom: 20px;
 }
 
+.contactUs__input-phone:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
+
 .contactUs__input-email {
     width: 290px;
     height: 50px;
     border: none;
+}
+
+.contactUs__input-email:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
 }
 
 .contactUs__input__checkbox {
@@ -601,11 +614,21 @@
     height: 19px;
 }
 
+.contactUs__input__checkbox:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
+
 .contactUs__input-message {
     border: none;
     width: 600px;
     height: 150px;
     margin-bottom: 20px;
+}
+
+.contactUs__input-message:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
 }
 
 .table {
