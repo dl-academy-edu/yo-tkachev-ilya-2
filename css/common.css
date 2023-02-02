@@ -30,6 +30,11 @@ a {
 
 }
 
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
 /* общее свойства для кнопок */
 .btn{
     font-family: 'Open Sans';

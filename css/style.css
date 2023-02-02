@@ -124,7 +124,7 @@
 
 .banner__designed__img {
     position: absolute;
-    left: 29%;
+    left: 42.5%;
     top: 142px;
 }
 
@@ -148,13 +148,10 @@
     color: #1E0606;
     margin-top: 90px;
     justify-content: space-around;
-    
 }
 
 /* отступы блоком */
-.products {
-    margin-right: 110px;
-}
+
 
 .products__list {
     display: flex;
@@ -380,8 +377,9 @@
     margin-top: 30px;
     margin-bottom: 15px;
     margin-left: 120px;
-    width: 480px;
-    height: 66px;
+    width: 483px;
+    height: 67px;
+    overflow: hidden;
 }
 
 /* вторая надпись */
@@ -396,6 +394,7 @@
     margin-left: 120px;
     width: 469px;
     height: 90px;
+    overflow: hidden;
 }
 
 /* отступ кнопки LEARN MORE*/
@@ -500,6 +499,7 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
+    overflow: hidden;
 }
 
 /* текст под заголовком */
@@ -512,8 +512,9 @@
     color: #1E0606;
     margin-bottom: 20px;
     margin-left: 30px;
-    width: 484px;
-    height: 68px;
+    width: 483px;
+    height: 67px;
+    overflow: hidden;
 }
 
 .kids__list__contact__caption2 {
@@ -528,6 +529,7 @@
     margin-top: 40px;
     width: 484px;
     height: 68px;
+    overflow: hidden;
 }
 
 .kids__list__link {

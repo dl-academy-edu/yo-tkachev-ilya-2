@@ -11,7 +11,7 @@
     <title>DL Academy - Personal HTML/CSS project</title>
 </head>
 <body>
-    <header class="header content ">
+    <header class="header container">
         <div class="header-div">
             <nav class="header__preview">
                 <img class="header__logo" src="./img/logo/logo.png" alt="logo">
@@ -28,10 +28,10 @@
         </div> 
     </header>  
     <main>
-        <section class="banner container content">
+        <section class="banner container">
         <h1 class="banner__title hidden">THE OOH NOO COLLECTION</h1>
             <div class="banner-title">
-            <div class="banner__quote">
+            <div class="banner__quote ">
                 <ul class="banner__quote__list undotted">
                     <li class="banner__quote__list__item">
                         <p class="banner__quote__list__caption">01</p>
@@ -69,7 +69,7 @@
                         <p class="banner__designed__caption undotted">Designed in Slovenia</p>
                     </li>
                             <li class="banner__designed__item">
-                        <button class="banner__designed__link btn banner__btn-js" aria-label="Кнопка формы, для связи с нами" href="#">EXPLORE NOW</button>
+                        <button class="banner__designed__link btn banner__btn-js" aria-label="Кнопка формы, для связи с нами" >EXPLORE NOW</button>
                     </li>
                 </ul>    
                     <nav class="banner__designed__item__caption">
@@ -78,8 +78,8 @@
             </div>
         </section>
         <section class="products">
-            <h2 class="products__title content">Category Products</h2>
-        <div class="products__list content">
+            <h2 class="products__title container">Category Products</h2>
+        <div class="products__list container">
             <div class="products__list__apparel">
                 <img class="products__list__img-apparel" src="/img/Apparel_kids.png" alt="Apparel kids">
                 <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход по ссылке категорий продуктов ###" href="#">Apparel Kids</a></div>
@@ -97,7 +97,7 @@
                 <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход по ссылке категорий продуктов ###" href="#">accessories</a></div>
             </div>
         </div>    
-    <div class="products__list__rolls content">
+    <div class="products__list__rolls container">
         <ul class="products__list__roll undotted">
             <li class="products__list__item">
                 <button class="products__list__btn-left" type="button"><img class="products__list__img-roll" src="/img/left_roll.png" alt="left_roll"></button>
@@ -112,7 +112,7 @@
         </ul>
     </div>
     </section>     
-    <section class="delivery content">
+    <section class="delivery container">
         <h2 class="delivery__title hidden">Delivery</h2>
         <img class="delivery__title__img " src="/img/model.jpg" alt="model">
         <div class="delivery__title-reverse">
@@ -146,7 +146,7 @@
             </ul>
         </div>
     </section>
-    <section class="sponsors content">
+    <section class="sponsors container">
         <h2 class="sponsors__title hidden">sponsors</h2>
         <nav class="sponsots__list undotted">
                 <img class="sponsots__list__img" src="/img/mailru.svg" alt="sponsors">
@@ -155,9 +155,9 @@
                 <img class="sponsots__list__img" src="/img/owox.svg" alt="sponsors">
         </nav>
     </section>
-    <section class="kids">
+    <section class="kids container">
         <h2 class="kids__title hidden">Design Life Kids</h2>
-        <div class="kids__div content">
+        <div class="kids__div container">
             <nav class="kids__div__caption">
                 <p class="kids__caption">Design Life Kids</p>
             </nav>
@@ -193,7 +193,7 @@
     </section>
     </main>
     <footer class="footer ">
-        <div class="footer__main content">
+        <div class="footer__main container">
             <div class="footer__navigation">
                 <div class="footer__navigation__block">
                 <p class="footer__navigation__block__caption">Navigation</p>
@@ -231,10 +231,10 @@
                 </nav>
             </div>
         </div>
-        <div class="footer__navigation__list__underline content">
+        <div class="footer__navigation__list__underline container">
             <hr class="footer__navigation__list__underline-line">
         </div>
-            <div class="footer__navigation__list__rating content">
+            <div class="footer__navigation__list__rating container">
                 <p class="footer__navigation__caption">Company Rating</p>
                 <nav class="footer__navigation__list__nav">
                     <img class="footer__navigation__img" src="/img/star.png" alt="star">
@@ -271,7 +271,7 @@
             <fieldset class="table">            
                 <ul class="contactUs__list undotted">
                 <li class="contactUs__list__item">
-                    <input type="checkbox" class="contactUs__input__checkbox" id="box" type="checkbox" name="browser" onchange="fun1()">
+                    <input type="checkbox" class="contactUs__input__checkbox" id="box" name="browser" onchange="fun1()">
                     <label class="contactUs__label__checkbox" aria-label="Подтверждение об обработки персональных данных" for="box"> By clicking on the button, you consent to the processing of your personal data</label>
                 </li>
                 </ul>
