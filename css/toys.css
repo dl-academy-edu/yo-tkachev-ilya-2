@@ -28,6 +28,8 @@
     line-height: 49px;
     text-transform: uppercase;
     color: #1E0606;
+    margin-top: 60px;
+    margin-bottom: 15px;
 }
 
 .toys__list {
@@ -65,7 +67,7 @@
 .filter__background {
     display: flex;
     width: 1400px;
-    height: 254px;
+    height: 212px;
     /* margin-left: 110px; */
 }
 
@@ -183,7 +185,6 @@ input[type="range"]::-ms-track {
     margin-top: 50px;
     background: rgba(125, 151, 218, 0.2);
     padding-top: 42px;
-    padding-bottom: 44px;
 }
 
 .filter__list-dsp {
@@ -237,7 +238,7 @@ input[type="range"]::-ms-track {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-    
+    margin-left: 71px;
 }
 
 .filter__list__amount-filter {
@@ -266,8 +267,8 @@ input[type="range"]::-ms-track {
 }
 
 .filter__list__color {
-    margin-left: 94px;
-    margin-right: 156px;
+    margin-left: 85px;
+    margin-right: 127px;
 }
 
 .filter__list__btn {
@@ -296,7 +297,7 @@ input[type="range"]::-ms-track {
     color: #1E0606;
     border-radius: 3px;
     width: 19px;
-    height: 19px;
+    height: 21px;
 }
 
 
@@ -308,7 +309,7 @@ input[type="range"]::-ms-track {
     background-position: center;
     background-repeat: no-repeat;
     width: 19px;
-    height: 19px;
+    height: 21px;
     margin-left: -29px;
 }
 
@@ -318,10 +319,16 @@ input[type="range"]::-ms-track {
     cursor: pointer;
     background-image: url("/img/chekbox/chekboxNoacvite.jpg");
     width: 19px;
-    height: 19px;
+    height: 21px;
 }
 
 .filter__label__checkbox-delivery {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
     margin-left: 10px;
 }
 
@@ -350,7 +357,7 @@ input[type="range"]::-ms-track {
 
 .amount {
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .amount label {
@@ -372,7 +379,7 @@ input[type="range"]::-ms-track {
 
 
 .filter__list__input-delivery {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .filter-slider {
@@ -402,7 +409,7 @@ input[type="range"]::-ms-track {
     order: 0;
     flex-grow: 0;
     background: #1E0606;
-    padding: 9px 22px;
+    padding: 7px 19px;
 }
 
 /* h2 Catalog*/
@@ -412,9 +419,13 @@ input[type="range"]::-ms-track {
     
 }
 
+.caption {
+    margin-right: 20px;
+}
+
 .catalog__main {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 48px;
 }
 
 .back-text {
@@ -437,6 +448,7 @@ input[type="range"]::-ms-track {
     line-height: 19px;
     text-align: center;
     color: #1E0606;
+    margin-top: 26px;
 }
 
 .catalog__caption-price {
@@ -448,11 +460,12 @@ input[type="range"]::-ms-track {
     text-align: center;
     color: #1E0606;
     margin-top: 15px;
+    margin-bottom: 45px;
 }
 
 .catalog__list-numbers {
     display: flex;
-    margin-top: 78px;
+    margin-top: 33px;
 
 }
 
