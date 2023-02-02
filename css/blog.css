@@ -1,4 +1,5 @@
 .blog {
+    margin-top: 59px;
 
 }
 
@@ -15,7 +16,7 @@
 }
 
 .blog__list__item-pointer {
-    margin-right: 20px;
+    margin-right: 26px;
     margin-left: 20px;
 }
 
@@ -46,11 +47,13 @@
 
 .blog-main {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 29px;
 }
 
 .blog-block {
     display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .blog__list__blogs {
@@ -88,6 +91,8 @@
     font-size: 24px;
     line-height: 32px;
     color: #1E0606;
+    width: 380px;
+    height: 93px;
 }
 
 .blog__list__item-caption {
@@ -97,6 +102,9 @@
     font-size: 18px;
     line-height: 26px;
     color: #1E0606;
+    width: 380px;
+    height: 125px;
+    margin-top: 15px;
 }
 
 .blog__list__text{
@@ -140,23 +148,16 @@
 }
 
 .blog__list__caption-date {
-    margin-top: 20px;
+    margin-top: 16px;
     margin-bottom: 7px;
 
 }
 
-.blog__list__caption-article {
-    margin-bottom: 15px;
-}
 
 .blog__list__caption-article:hover {
     text-decoration: underline;
 }
 
-.mrg {
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 .blog__list__link:hover {
     font-family: 'Montserrat';

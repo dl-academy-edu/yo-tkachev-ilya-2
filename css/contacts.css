@@ -6,6 +6,9 @@
     line-height: 50px;
     text-transform: uppercase;
     color: #1E0606;
+    margin-top: 61px;
+    word-spacing: 11px;
+    margin-bottom: -2px;
 }
 
 .contactUs {
@@ -16,7 +19,11 @@
     display: flex;
     align-items: center;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 51px;
+}
+
+.contactUs__list1 {
+    margin-bottom: 10px;
 }
 
 .contactUs__list__link {
@@ -74,7 +81,7 @@
     font-size: 18px;
     line-height: 25px;
     color: #1E0606;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .contactUs__input:hover {
