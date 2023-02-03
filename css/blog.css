@@ -50,18 +50,49 @@
     margin-bottom: 29px;
 }
 
+.blog-main-two {
+    margin-left: 20px;
+}
+
+.blog-main-three {
+    margin-left: 20px;
+}
+
 .blog-block {
     display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 20px;
+    margin-right: 0px; */
 }
+
+.blog-block-two {
+    display: flex;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+}
+
+.blog-block-four {
+margin-top: -20px;
+}
+
+.blog-block-five {
+    margin-top: -20px;
+    margin-left: 19px;
+    margin-right: 22px;
+    
+}
+
+.blog-block-six {
+    margin-top: -20px;
+    margin-right: 22px;
+    
+} 
+
 
 .blog__list__blogs {
     display: flex;
     flex-direction: column;
 }
 
-.
 
 .text-blog {
     font-family: 'Crimson Text', sans-serif;
@@ -104,8 +135,68 @@
     color: #1E0606;
     width: 380px;
     height: 125px;
-    margin-top: 15px;
+    margin-top: -20px;
 }
+
+.blog__list__item-caption-two {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1E0606;
+    width: 380px;
+    height: 125px;
+    margin-top: -49px;
+}
+
+.blog__list__item-caption-three {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1E0606;
+    width: 380px;
+    height: 125px;
+    margin-top: 13px;
+}
+
+.blog__list__item-caption-four {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1E0606;
+    width: 380px;
+    height: 125px;
+    margin-top: -47px;
+}
+
+.blog__list__item-caption-five {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1E0606;
+    width: 380px;
+    height: 125px;
+    margin-top: 13px;
+}
+
+.blog__list__item-caption-six {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1E0606;
+    width: 380px;
+    height: 125px;
+    margin-top: -18px;
+} 
 
 .blog__list__text{
     font-family: 'Montserrat', sans-serif;
