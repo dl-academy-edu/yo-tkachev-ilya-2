@@ -1,0 +1,821 @@
+/* отступы блоком */
+.banner {
+    background: #EEE4DB;
+    margin-top: 130px;
+
+}
+
+.banner-title {
+    display: flex;
+}
+
+.banner__quote {
+    display: flex;
+}
+
+.banner__quote__list {
+    display: flex;
+
+    
+}
+
+.banner__quote__list__underline {
+    background: rgba(30, 6, 6, 0.6);
+    width: 31px;
+    height: 3px; 
+    margin-top: 10px;
+}
+
+.banner__quote__list__underline-anothercolor {
+    background: #D6CAC2;
+    width: 31px;
+    height: 3px;
+    border: none; 
+}
+
+.banner__quote__list__underline-anothercolor:hover {
+    background: rgba(30, 6, 6, 0.6);
+}
+
+
+.banner__quote__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__quote__list__item {
+    margin-left: 28px;
+    margin-top: 17px;
+}
+
+
+.banner__designed__list__caption-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    width: 307px;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+    margin-top: 90px;
+    margin-left: 44px;
+}
+
+
+.banner__quote__list__item {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 74px;
+    color: rgba(30, 6, 6, 0.05);
+}
+
+.banner__quote__list__item-line {
+    margin-bottom: 10px;
+    margin-left: 31px;
+}
+
+
+.banner__designed__caption {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+
+.banner__quote__caption {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+
+.banner__designed__list__caption {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #C29974;
+    color: #FFFFFF;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 89px;
+}
+
+
+
+.banner__designed__item {
+    margin-top: 18px;
+    margin-left: 134px;
+}
+
+
+
+.banner__designed__img {
+    position: absolute;
+    left: 42.5%;
+    top: 142px;
+}
+
+.banner__designed__item__caption {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+/* категории продуктов */
+
+/* h2 Category Products */
+.products__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 90px;
+    justify-content: space-around;
+}
+
+/* отступы блоком */
+
+
+.products__list {
+    display: flex;
+
+}
+
+
+/* общее свойство ссылок внутри картинок */
+.products__list__link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin: auto;
+    z-index: 1;
+
+}
+
+.products__list__link:hover {
+    text-decoration: underline;
+}
+
+/* отсутпы картинок */
+.products__list__img-apparel {
+    padding: 46px 18px;
+}
+
+/* отсутпы картинок */
+.products__list__img-holiday {
+    margin-top: 10px;
+    padding: 13px 36px;
+}
+
+/* отсутпы картинок */
+.products__list__img-accessories {
+    padding: 10px 20px;
+}
+
+/* свойства для блоков div */
+.products__list__apparel {
+    position: relative;
+    background: #DBE4DB;
+    /* margin-left: 128px; */
+    margin-top: 31px;
+
+    margin-right: 20px;
+}
+
+/* свойства для блоков div */
+.products__list__holiday {
+    position: relative;
+    background: #EADDD3;
+    margin-top: 30px;
+    
+    margin-right: 25px;
+}
+
+/* свойства для блоков div */
+.products__list__toys {
+    position: relative;
+    background: #F8F2DA;
+    margin-top: 30px;
+
+    margin-right: 25px;
+}
+
+/* свойства для блоков div */
+.products__list__accessories {
+    position: relative;
+    background: #D5D4E1;
+    margin-top: 30px;
+
+    /* margin-right: 110px;  */
+}
+
+/* центровка ссылки на блок */
+.centered {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+/* свойства под кноки влево\вправа*/
+.products__list__roll {
+    display: flex;
+    margin-top: 28px;
+}
+
+/* свойства кнопки влево */
+.products__list__btn-left {
+    border: 4px solid #1E0606;
+    box-sizing: border-box;
+    background: rgba(112, 187, 220, 0.2);
+    border: none;
+    padding: 5px 12px;
+}
+
+
+/* свойства кнопки вправо */
+.products__list__btn-right {
+    border: 4px solid #1E0606;
+    box-sizing: border-box;
+    background: rgba(112, 187, 220, 0.2);
+    border: none;
+
+    padding: 5px 12px;
+    margin-right: 17px;
+    margin-bottom: 90px;
+}
+
+
+
+
+/* отдельное свойство под текст */
+.text-products {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    width: 580px;
+    height: 44px;
+}
+
+/* h2 delivery */
+
+/* отступы общего блока delivery */
+.delivery {
+    display: flex;
+    margin-bottom: 90px;
+    
+}
+
+/* h2 delivery */
+.delivery__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+
+
+/* свойство строки загаловка */
+.delivery__list__caption-delivery {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-left: 120px;
+}
+
+/* ссылка delivery */
+.delivery__list__link-delivery {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+}
+
+/* цвет ссылки delivery */
+.delivery__list__link-delivery {
+    background: rgba(112, 187, 220, 0.2);
+    width: 326px;
+    height: 55px;
+    padding-left: 60px;
+    padding-right: 180px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 60px;
+}
+
+/* ссылка guarantee */
+.delivery__list__caption-guarantee {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+    margin-top: 9px;
+    margin-bottom: 22px;
+    margin-left: 120px;
+}
+
+/* ссылка credit */
+.delivery__list__caption-credit {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
+
+/* первая надпись */
+.delivery__list__caption-one {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+    width: 483px;
+    height: 67px;
+    overflow: hidden;
+}
+
+/* вторая надпись */
+.delivery__list__caption-two {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 26px;
+    margin-left: 120px;
+    width: 469px;
+    height: 90px;
+    overflow: hidden;
+}
+
+/* отступ кнопки LEARN MORE*/
+.delivery__list__link-learn-more {
+    margin-left: 120px;
+    
+}
+
+
+/* спонсоры - отступы*/
+.sponsots__list {
+    display: flex;
+    margin-bottom: 116px;
+}
+
+.sponsots__list__img {
+    margin-right: 127px;
+}
+
+/* h2 Design Life Kids */
+
+.kids {
+    margin-bottom: -2px;
+}
+
+.kids__div__design {
+    background: #E1F0F7;
+    width: 544px;
+    height: 228px;
+    margin-bottom: 156px;
+}
+
+.kids__div__contact {
+    background: #E1F0F7;
+    margin-left: 58px;
+    width: 544px;
+    height: 210px;
+}
+
+.kids__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.kids__title {
+    margin-bottom: 10px;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.kids__div {
+    display: flex;
+}
+
+/* h2 Design Life Kids*/
+.kids__caption {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-left: 30px;
+    position: absolute;
+    top: 2043px
+}
+
+/* <p About Us */
+.kids__list__caption {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 29px;
+}
+
+
+/* h2  Contacts*/
+.contacts__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+
+/* заголовок */
+.contacts__list__caption {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    overflow: hidden;
+}
+
+/* текст под заголовком */
+.kids__list__caption2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 483px;
+    height: 67px;
+    overflow: hidden;
+}
+
+.kids__list__contact__caption2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 30px;
+    margin-left: 27px;
+    margin-top: 40px;
+    width: 484px;
+    height: 68px;
+    overflow: hidden;
+}
+
+.kids__list__link {
+    margin-left: 30px;
+}
+
+.kids__div__contact__map {
+    margin-left: 30px;
+    padding-bottom: 50px;
+}
+
+
+
+.contactUs__box {
+    background: #E5EAF8;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+.contactUs-block {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactUs__label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+}
+
+.contactUs__input {
+    width: 600px;
+    height: 50px;
+    border: none;
+    padding-left: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+    margin-bottom: 20px;
+}
+
+.contactUs__input:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
+
+.contactUs__input-phone {
+    width: 290px;
+    height: 50px;
+    border: none;
+    margin-bottom: 23px;
+}
+
+.contactUs__input-phone:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
+
+.contactUs__input-email {
+    width: 290px;
+    height: 50px;
+    border: none;
+}
+
+.contactUs__input-email:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
+
+.contactUs__input__checkbox {
+    border: 2px solid #C29974;
+    border-radius: 3px;
+    margin-right: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+.contactUs__input__checkbox:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
+
+.contactUs__input-message {
+    border: none;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 6px;
+}
+
+.contactUs__input-message:hover {
+    background: #FFFFFF;
+    border: 1px solid #C29974;
+}
+
+.table {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.contactUs__list__item {
+    display: flex;
+}
+
+.contactUs__label__checkbox {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    margin-right: 15px;
+}
+
+.contactUs__label__checkbox::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+    background-image: url("/img/chekbox/chekbox.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-left: -34px;
+    
+}
+
+.contactUs__input__checkbox:checked + .contactUs__label__checkbox::before {
+    position: absolute;
+    content: ' ';
+    cursor: pointer;
+    background-image: url("/img/chekbox/chekboxNoacvite.jpg");
+    width: 19px;
+    height: 19px;
+}
+
+.contactUs__caption {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    margin-left: 15px;
+}
+
+.contactUs-phone {
+    display: flex;
+}
+
+.contactUs-phone__nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactUs-phone__nav-email {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.contactUs__box__desc {
+    padding-top: 14px;
+
+}
+
+.contactUs__box__caption {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E0606;
+}
+
+.contactUs__box__btn {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #000000;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-right: 22px;
+    padding-left: 22px;
+
+}
+
+/* табличка для связи */
+.popup {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 113px;
+    left: 25%;
+    width: 680px;
+    height: 542px;
+}
+
+.open {
+    display: flex;
+}
+
+
+/* стелизация кнопки закрытия */
+.closeform {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: 700px;
+    background: none;
+    border: none;
+}
+
+.closeform:hover {
+    opacity: 0.5;
+}
+
+.closeform:active {
+    opacity: 0.2;
+}
+
+.btn-verif {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #C1C1C1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 9px 22px;
+    display: inline-block
+}
+
+
+.active {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 9px 22px;
+    display: inline-block
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(125, 151, 218, 0.8);
+    z-index: -1;
+}

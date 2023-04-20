@@ -1,0 +1,203 @@
+.category__products {
+    margin-bottom: 55px;
+}
+
+
+
+.category__products__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 61px;
+    margin-bottom: 11px;
+
+}
+
+.category__products__list {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+}
+
+.category__products__list__link-home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    margin-right: 20px;
+
+}
+
+.category__products__list__item-text {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+    margin-right: 20px;
+
+}
+
+.category__products__list__item-vector {
+    margin-right: 20px;
+}
+
+.category__products__list__link {
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+    margin-top: 5px;
+}
+
+
+.Product__Description__list__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-bottom: 25px;
+    margin-left: 200px;
+}
+
+.Product__Description__div {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 44px;
+}
+
+.products__list__description {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 200px;
+}
+
+.Product__Description__list__caption {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-bottom: 15px;
+    margin-left: 200px;
+    overflow: hidden;
+    
+}
+
+.products__list {
+    display: flex;
+
+}
+
+.centered {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.products__list__apparel {
+    position: relative;
+    background: #DBE4DB;
+}
+
+/* свойства для блоков div */
+.products__list__holiday {
+    position: relative;
+    background: #EADDD3;
+    margin-left: 20px;
+    margin-right: 25px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 10px;
+}
+
+/* свойства для блоков div */
+.products__list__toys {
+    position: relative;
+    background: #F8F2DA;
+}
+
+/* свойства для блоков div */
+.products__list__accessories {
+    position: relative;
+    background: #D5D4E1;
+    padding: 6px 20px;
+    margin-right: 20px;
+}
+
+.products__list__sale {
+    background: #F3D0DB;
+    padding: 11px 16px;
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+    margin-right: 20px;
+}
+
+
+.products__list__appareladults {
+    padding: 33px 5px;
+    position: relative;
+    background: #E5EAF8;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.products__list__img-apparel {
+    padding: 46px 18px;
+}
+
+.products__list__link:hover {
+    text-decoration: underline;
+}
+
+.products__list__link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin: auto;
+    z-index: 1;
+
+}

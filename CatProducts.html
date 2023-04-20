@@ -1,0 +1,143 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/CatProducts.css">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <title>DL Academy - Personal HTML/CSS project</title>
+    </head>
+    <body>
+        <header class="header container">
+            <div class="header-div">
+                <nav class="header__preview">
+                    <img class="header__logo" src="./img/logo/logo.png" alt="logo">
+                    <a class="header__preview__link" aria-label="Переход по ссылке к блогу" href="Blog.html">Blog</a>
+                    <a class="header__preview__link" aria-label="Переход по ссылке к категориям продуктов"  href="CatProducts.html">Catalog</a>
+                    <a class="header__preview__link" aria-label="Переход по ссылке на главную страницу"  href="index.html">About Us</a>
+                </nav>
+            </div>
+            <div class="header__contacts">
+                <nav class="header__contacts__list undotted">
+                    <a class="header__contacts__link" aria-label="Переход по ссылке игрушек" href="Toys.html"><img class="header__contacts__list__img" src="/img/search.svg" alt="search"></a>
+                    <a class="header__contacts__link" aria-label="Переход по ссылке для связи с нами" href="contacts.html">Contact Us</a>
+                </nav>
+            </div> 
+        </header>  
+    <main>
+        <section class="category__products container">
+            <h1 class="category__products__title">Category Products</h1>
+            <ul class="category__products__list undotted">
+                <li class="category__products__list__item">
+                    <a class="category__products__list__link-home" href="index.html">Home</a>
+                </li>
+                <li class="category__products__list__item-vector">
+                    <img class="category__products__list__img" src="/img/vector.png" alt="pointer">
+                </li>
+                <li class="category__products__list__item-text">
+                    <a class="category__products__list__link-home" href="CatProducts.html">Catalog</a>  
+                </li>
+            </ul>
+            <div class="products__list container">
+                <div class="products__list__apparel">
+                    <img class="products__list__img-apparel" src="/img/Apparel_kids.png" alt="Apparel kids">
+                    <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход на группу товаров #" href="#">Apparel Kids</a></div>
+                </div>
+                <div class="products__list__holiday">
+                    <img class="products__list__img-holiday"  src="/img/Holiday_shop.png" alt="HOLIDAY SHOP">
+                    <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход на группу товаров #" href="#">HOLIDAY SHOP</a></div>
+                </div>
+                <div class="products__list__toys">
+                    <img class="products__list__img"  src="/img/toys.png" alt="Toys">
+                    <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход на группу товаров #" href="#">Toys</a></div>
+                </div>
+            </div>
+            <div class="products__list__description">
+                <div class="products__list__accessories">
+                    <img class="products__list__img-accessories"  src="/img/accessories.png" alt="accessories">
+                    <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход на группу товаров #" href="#">accessories</a></div>
+                </div>
+                <div class="products__list__sale">
+                    <img class="products__list__img-sale"  src="/img/sale.png" alt="SALE">
+                    <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход на группу товаров #" href="#">SALE</a></div>
+                </div>
+                <div class="products__list__appareladults">
+                    <img class="products__list__img"  src="/img/apparel_adults.png" alt="APPAREL ADULTS">
+                    <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход на группу товаров #" href="#">APPAREL ADULTS</a></div>
+                </div>
+            </div>     
+            <div class="Product__Description__div">
+                <section class="Product__Description__div2">
+                    <h2 class="Product__Description__list__title">Product Description</h2> 
+                <ul class="Product__Description__list undotted">
+                    <li class="Product__Description__list__item"><p class="Product__Description__list__caption">Interactive doll Zapf Creation Baby Born Sister can drink 
+                        from a bottle and almost really <br> cry.  You can even bathe her, just like a little sister.</p></li>
+                    <li class="Product__Description__list__item"><p class="Product__Description__list__caption">A toy with a height of 43 cm bends its knees, the head rotates, 
+                        it can stand upright. Such a <br> doll will be an excellent choice for a gift for a girl from 4 years old.</p></li>
+                    <li class="Product__Description__list__item"><p class="Product__Description__list__caption">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a <br> pair of hairpins and elastic bands for hair, 
+                        as well as two bracelets: one for the doll, the <br> other for her young mistress.</p></li>
+                </ul>
+                </section>  
+            </div>
+        </section>
+    </main>
+    <footer class="footer ">
+        <div class="footer__main container">
+            <div class="footer__navigation">
+                <div class="footer__navigation__block">
+                <p class="footer__navigation__block__caption">Navigation</p>
+                <hr class="footer__navigation__line">
+                <a class="footer__navigation__link" aria-label="Переход по ссылке на главную страницу" href="index.html">About Us</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке на страницу блога" href="Blog.html">Blog</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Design Services" href="#">Design Services</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Featured On" href="#">Featured On</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке 2018 Holiday Catalog" href="#">2018 Holiday Catalog</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Shop By Designer" href="#">Shop By Designer</a>
+                </div>
+            </div>
+            <div class="footer__inform__block__contactus">
+                <p class="footer__navigation__block__caption">Customer Information</p>
+                <hr class="footer__navigation__line">
+                <a class="footer__inform__link" aria-label="Переход по ссылке для контакта с нами" href="contacts.html">Contact Us</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Sale Exclusions" href="#">Sale Exclusions</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Shipping & Returns" href="#">Shipping & Returns</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Terms & Conditions" href="#">Terms & Conditions</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Privacy Policy" href="#">Privacy Policy</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Search" href="Toys.html">Search</a>
+            </div>    
+            <div class="footer__inform__block__connect">
+                <p class="footer__navigation__block__caption">Connect</p>
+                <hr class="footer__navigation__line">
+                <div class="footer__inform__block__connect__input">
+                    <input class="footer__connect__input" type="text" value="Email">
+                    <button class="footer__connect__btn" type="submit">Join</button>
+                </div>
+                <nav class="footer__inform__block__connect__link">
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для фейсбука" href="#"><img class="footer__connect__img" src="/img/social/faceb.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для твиттера" href="#"><img class="footer__connect__img" src="/img/social/tweeet.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для Пайинтреса" href="#"><img class="footer__connect__img" src="/img/social/Pinterest.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для Инстаграмма" href="#"><img class="footer__connect__img" src="/img/social/inst.svg" alt="social"></a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__navigation__list__underline container">
+            <hr class="footer__navigation__list__underline-line">
+        </div>
+            <div class="footer__navigation__list__rating container">
+                <p class="footer__navigation__caption">Company Rating</p>
+                <nav class="footer__navigation__list__nav">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                </nav>
+                <a class="footer__inform__link-copy" aria-label="Переход по ссылке авторских прав" href="#">Copyright © 2018 Dlk • Design Life Kids</a>
+                <a class="footer__inform__link-dl" aria-label="Переход по ссылке Web Design — Direct Line Development" href="#">Web Design — Direct Line Development</a>
+            </div>
+    </footer>
+</body>
+</html>

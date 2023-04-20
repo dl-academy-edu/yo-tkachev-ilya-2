@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    /* display: none; лучше не использовать, ломается доступность */
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.undotted {
+    list-style-type : none
+}
+
+
+.content {
+    max-width: 1180px;
+    margin-left: 110px;
+
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* общее свойства для кнопок */
+.btn{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 9px 21px;
+    background: #000000;
+    display: inline-block
+}
+
+.btn:hover {
+    background: #C29974;
+}
+
+.btn:active {
+    background: #CFAF91;
+}
+
+.btn:disabled {
+    background: #C7C1C1;
+}
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header__preview {
+    display: flex;
+    align-items: center;
+}
+
+.header__preview__link {
+    margin-right: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.header__preview__link:hover {
+    opacity: 0.5;
+}
+
+.header__preview__link:active {
+    opacity: 0.2;
+}
+
+.header__logo {
+    margin-right: 57px;
+}
+
+.header__logo:hover {
+    opacity: 0.5;
+}
+
+.header__logo:active {
+    opacity: 0.2;
+}
+
+.header__contacts__list {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__contacts__link {
+    margin-left: 26px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+
+.header__contacts__link:hover {
+    opacity: 0.5;
+}
+
+.header__contacts__link:active {
+    opacity: 0.2;
+}
+/* HEADER end */
+
+/* FOOTER */
+/* фон футтера */
+.footer {
+    background: #434343;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__navigation__block {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer__navigation__list__line-all {
+    background: #666666;
+}
+
+.footer__navigation__list__rating {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.footer__navigation__nav {
+    display: flex;
+}
+
+.footer__navigation__caption {
+    margin-right: 28px;
+}
+
+
+/* свойства для h2 футера */
+.footer__navigation__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+/* общие свойства для ссылок */
+.footer__navigation__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+
+.footer__navigation__caption {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* общие свойсчтва для Customer Information*/
+.footer__inform__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+/* общие свойства для ссылок Customer Information */
+.footer__inform__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* h2 Connect  */
+.footer__connect__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+
+
+
+/* свойства для ввода данных */
+.footer__connect__input {
+    background: #666666;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #EBEBEB;
+    border: 0;
+    width: 298px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer__connect__input:hover {
+    background: #666666;
+    border: 1px solid #FFFDFD;
+}
+
+.footer__inform__block__connect__link {
+    margin-top: 25px;
+}
+
+/* свойства для кнопки */
+.footer__connect__btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #000000;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    padding-left: 21px;
+}
+
+.footer__navigation__block__caption {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+
+.footer__connect__link:hover {
+    opacity: 0.5;
+}
+
+.footer__connect__link:active {
+    opacity: 0.2;
+}
+
+.footer__navigation__block__caption {
+    margin-bottom: 20px;
+}
+
+.footer__navigation__line {
+    margin-bottom: 31px;
+    background: #666666;
+    width: 380px;
+    margin-right: 20px;
+
+}
+
+.footer__connect__img {
+    margin-right: 6px;
+}
+
+.footer__navigation__line-contacts {
+    margin-bottom: 29px;
+    background: #666666;
+    width: 380px;
+    margin-right: 17px;
+
+}
+
+.footer__navigation__line-connect {
+    margin-bottom: 28px;
+    background: #666666;
+    width: 380px;
+    margin-right: 17px;
+
+}
+
+.footer__navigation__link {
+    margin-bottom: 15px;
+}
+
+.footer__navigation__link:hover {
+    opacity: 0.5;
+}
+
+.footer__navigation__link:active {
+    opacity: 0.2;
+}
+
+.footer__inform__link {
+    margin-bottom: 15px;
+}
+
+.footer__inform__link:hover {
+    opacity: 0.5;
+}
+
+.footer__inform__link:active {
+    opacity: 0.2;
+}
+
+.footer__navigation__list__rating {
+    margin-top: 22px;
+}
+
+
+/* Отсутпы блоков */
+.footer__inform__block__contactus {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer__inform__link-dl {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+    margin-left: 110px;
+}
+
+.footer__inform__link-dl:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.footer__inform__list__nav {
+    display: flex;
+}
+
+.footer__inform__link-copy {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 154px;
+}
+
+.footer__navigation__img {
+    margin-right: 2px;
+    margin-top: 6px;
+}
+
+
+.footer__inform__block__connect__input {
+    display: flex;
+}
+
+.footer__navigation__list__underline-line {
+    width: 1180px;
+    background: #666666;
+    margin-top: 10px;
+}
+

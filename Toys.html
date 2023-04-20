@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/toys.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>DL Academy - Personal HTML/CSS project</title>
+</head>
+<body>
+    <header class="header container ">
+        <div class="header-div">
+            <nav class="header__preview">
+                <img class="header__logo" src="./img/logo/logo.png" alt="logo">
+                <a class="header__preview__link" aria-label="Переход по ссылке к блогу" href="Blog.html">Blog</a>
+                <a class="header__preview__link" aria-label="Переход по ссылке к категориям продуктов"  href="CatProducts.html">Catalog</a>
+                <a class="header__preview__link" aria-label="Переход по ссылке на главную страницу"  href="index.html">About Us</a>
+            </nav>
+        </div>
+        <div class="header__contacts">
+            <nav class="header__contacts__list undotted">
+                <a class="header__contacts__link" aria-label="Переход по ссылке игрушек" href="Toys.html"><img class="header__contacts__list__img" src="/img/search.svg" alt="search"></a>
+                <a class="header__contacts__link" aria-label="Переход по ссылке для связи с нами" href="contacts.html">Contact Us</a>
+            </nav>
+        </div> 
+    </header>  
+    <main>
+        <section class="toys container">
+            <h1 class="toys__title">Toy for kids</h1>
+            <ul class="toys__list undotted">
+                <li class="toys__list__item">
+                    <a class="toys__link" aria-label="Переход по ссылке на главную страницу" href="index.html">Home</a>
+                </li>
+                <li class="toys__list__item">
+                    <img class="toys__img" src="/img/vector.png" alt="vector">
+                </li>
+                <li class="toys__list__item">
+                    <a class="toys__link" aria-label="Переход по ссылке категорий продуктов" href="CatProducts.html">Catalog</a>
+                </li>
+                <li class="toys__list__item">
+                    <img class="toys__img" src="/img/vector.png" alt="vector">
+                </li>
+                <li class="toys__list__item-text">
+                    Toys
+                </li>
+            </ul>
+        </section>
+        <section class="filter">
+            <h2 class="filter__title hidden">filters</h2>
+            <div class="filter__title-background">
+            <div class="filter__background container">
+                <div class="filter__background-range ">
+                    <ul class="filter__list undotted">
+                        <li class="filter__list__item">
+                            <p class="filter__list__caption caption">Cost</p>
+                        </li>
+                        <li class="filter__list__item">
+                            <div>
+                                <input type="range" value="380" min="0" max="500" oninput="rangevalue.value=value"/>
+                            </div>
+                    </ul>     
+                </div>
+                <ul class="filter__list__color undotted">
+                    <li>
+                        <p class="filter__list__color__caption caption">Color</p>
+                    </li>
+                    <li class="filter__list__item">
+                        <input class="filter__input" id="black" type="checkbox" name="black">
+                        <label class="filter__input__checkbox" aria-label="Выбор фильтра цвета - черный" for="black">Black</label>
+                    </li>
+                    <li class="filter__list__item">
+                        <input class="filter__input" id="blue" type="checkbox" name="Blue">
+                        <label class="filter__input__checkbox" aria-label="Выбор фильтра цвета - Синия" for="blue">Blue</label>
+                    </li>
+                    <li class="filter__list__item">
+                        <input class="filter__input" id="green" type="checkbox" name="Green">
+                        <label class="filter__input__checkbox" aria-label="Выбор фильтра цвета - Зеленый" for="green">Green</label>
+                    </li>
+                    <li class="filter__list__item">
+                        <input class="filter__input" id="white" type="checkbox" name="White">
+                        <label class="filter__input__checkbox" aria-label="Выбор фильтра цвета - Белый" for="white">White</label>
+                    </li>
+                </ul>
+                <ul class="filter__list__delivery undotted">
+                    <li class="filter__list__item-delivery">
+                        <p class="filter__list__delivery__caption caption">Delivery</p>
+                    </li>
+                    <li class="filter__list__item-delivery">
+                        <input class="filter__list__input-delivery" id="radio" type="radio" name="radio">
+                        <label class="filter__label__checkbox-delivery" aria-label="Выбор доставки - бесплатная доставка" for="radio">Free shipping</label>
+                    </li>
+                    <li class="filter__list__item-delivery">
+                        <input class="filter__list__input-delivery" id="radio2" type="radio" name="radio">
+                        <label class="filter__label__checkbox-delivery" aria-label="Выбор доставки - быстрая доставка" for="radio2">Fast shipping</label>
+                    </li>
+                </ul>
+                <div class="filter__list__amount-flex">
+                    <ul class="filter__list__amount undotted">
+                        <li class="filter__list__item-amount">
+                            <p class="filter__list__amount__caption caption">Amount</p>
+                        </li>
+                    </ul>    
+                            <form class="amount">
+                                <nav class="filter__list__item-amount">
+                                <input type="radio" id="one" name="skills" value="0-5">
+                                <label class="filter__list__input-amount" for="one">0-5</label>
+                                </nav>
+                                <nav class="filter__list__item-amount">
+                                <input type="radio" id="two" name="skills" value="10-20">
+                                <label class="filter__list__input-amount" for="two">10-20 </label>
+                                </nav>
+                                <nav class="filter__list__item-amount">
+                                <input type="radio" id="three" name="skills" value="20-50">
+                                <label class="filter__list__input-amount" for="three">20-50</label>
+                                </nav>
+                                <nav class="filter__list__item-apply">
+                                <button aria-label="кнопка подтверждения выбора" class="filter__btn-apply">Apply</button>
+                                </nav>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        </section>
+        <section class="catalog ">
+            <h2 class="catalog__titel hidden ">Catalog</h2>
+            <div class="catalog__main">
+            <div class="catalog__list container">
+                <ul class="caption undotted">
+                    <li class="catalog__list__item">
+                        <img class="catalog__img" src="/img/toys/sharky.png" alt="SHARKY">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">SHARKY BEAN BAG CHAIR COVER</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$60.00 USD</p>
+                    </li>
+                </ul>
+                <ul class="caption undotted">
+                    <li class="catalog__list__item">
+                        <img class="catalog__img" src="/img/toys/BRASS.png" alt="BRASS">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">BRASS DECO FRAMES</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$66.00 USD</p>
+                    </li>
+                </ul>
+                <ul class="caption undotted">                
+                    <li class="catalog__list__item">
+                    <img class="catalog__img" src="/img/toys/cibo.png" alt="Cibo">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">CIBO FULL APRON</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$56.00 USD</p>
+                    </li>
+                </ul>
+                </div>
+                <div class="catalog__list  container">
+                <ul class="caption undotted">                
+                    <li class="catalog__list__item">
+                    <img class="catalog__img" src="/img/toys/gatcha.png" alt="Machine">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">GATCHA GATCHA GUMBALL MACHINE</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$56.00 USD</p>
+                    </li>
+                </ul>
+                <ul class="caption undotted">                
+                    <li class="catalog__list__item">
+                    <img class="catalog__img" src="/img/toys/candle.png" alt="CANDLE">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$29.00 USD</p>
+                    </li>
+                    </ul>
+                <ul class="caption undotted">
+                    <li class="catalog__list__item">
+                        <img class="catalog__img" src="/img/toys/Light.png" alt="LIGHT">
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption">TANGLE SPINNING TEA LIGHT</p>
+                    </li>
+                    <li class="catalog__list__item">
+                        <p class="catalog__caption-price">$56.00 USD</p>
+                    </li>
+                </ul>
+                </div>
+            <div class="catalog__list-numbers  container">
+                <ul class="blog__list undotted">
+                    <li class="blog__list__item-leftroll">
+                        <a class="blog__list__link" aria-label="Переход на предыдущую страницу товаров" href="#"><img class="blog__list__img" src="/img/left_roll_blog.svg" alt="left_role"></a>
+                    </li>
+                    <li class="blog__list__item">
+                        <span class="blog__list__text">1</span>
+                    </li>
+                    <li class="blog__list__item">
+                        <a class="blog__list__link" aria-label="Переход на страницу товаров" href="#">2</a>
+                    </li>
+                    <li class="blog__list__item">
+                        <a class="blog__list__link" aria-label="Переход на страницу товаров" href="#">3</a>
+                    </li>
+                    <li class="blog__list__item">
+                        <a class="blog__list__link" aria-label="Переход на страницу товаров" href="#">4</a>
+                    </li>
+                    <li class="blog__list__item-rightroll">
+                        <a class="blog__list__link" aria-label="Переход на слудующую страницу товаров" href="#"><img class="blog__list__img" src="/img/right_role_blog.svg" alt="right_role"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>    
+        </section>
+    </main>
+    <footer class="footer ">
+        <div class="footer__main container">
+            <div class="footer__navigation">
+                <div class="footer__navigation__block">
+                <p class="footer__navigation__block__caption">Navigation</p>
+                <hr class="footer__navigation__line">
+                <a class="footer__navigation__link" aria-label="Переход по ссылке на главную страницу" href="index.html">About Us</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке на страницу блога" href="Blog.html">Blog</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Design Services" href="#">Design Services</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Featured On" href="#">Featured On</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке 2018 Holiday Catalog" href="#">2018 Holiday Catalog</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Shop By Designer" href="#">Shop By Designer</a>
+                </div>
+            </div>
+            <div class="footer__inform__block__contactus">
+                <p class="footer__navigation__block__caption">Customer Information</p>
+                <hr class="footer__navigation__line">
+                <a class="footer__inform__link" aria-label="Переход по ссылке для контакта с нами" href="contacts.html">Contact Us</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Sale Exclusions" href="#">Sale Exclusions</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Shipping & Returns" href="#">Shipping & Returns</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Terms & Conditions" href="#">Terms & Conditions</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Privacy Policy" href="#">Privacy Policy</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Search" href="Toys.html">Search</a>
+            </div>    
+            <div class="footer__inform__block__connect">
+                <p class="footer__navigation__block__caption">Connect</p>
+                <hr class="footer__navigation__line">
+                <div class="footer__inform__block__connect__input">
+                    <input class="footer__connect__input" type="text" value="Email">
+                    <button class="footer__connect__btn" type="submit">Join</button>
+                </div>
+                <nav class="footer__inform__block__connect__link">
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для фейсбука" href="#"><img class="footer__connect__img" src="/img/social/faceb.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для твиттера" href="#"><img class="footer__connect__img" src="/img/social/tweeet.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для Пайинтреса" href="#"><img class="footer__connect__img" src="/img/social/Pinterest.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для Инстаграмма" href="#"><img class="footer__connect__img" src="/img/social/inst.svg" alt="social"></a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__navigation__list__underline container">
+            <hr class="footer__navigation__list__underline-line">
+        </div>
+            <div class="footer__navigation__list__rating container">
+                <p class="footer__navigation__caption">Company Rating</p>
+                <nav class="footer__navigation__list__nav">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                </nav>
+                <a class="footer__inform__link-copy" aria-label="Переход по ссылке авторских прав" href="#">Copyright © 2018 Dlk • Design Life Kids</a>
+                <a class="footer__inform__link-dl" aria-label="Переход по ссылке Web Design — Direct Line Development" href="#">Web Design — Direct Line Development</a>
+            </div>
+    </footer>
+    <script src="/js/slider.js"></script>
+</body>
+</html>

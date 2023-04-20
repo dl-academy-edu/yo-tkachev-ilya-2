@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>DL Academy - Personal HTML/CSS project</title>
+</head>
+<body>
+    <header class="header container">
+        <div class="header-div">
+            <nav class="header__preview">
+                <img class="header__logo" src="./img/logo/logo.png" alt="logo">
+                <a class="header__preview__link" aria-label="Переход по ссылке к блогу" href="Blog.html">Blog</a>
+                <a class="header__preview__link" aria-label="Переход по ссылке к категориям продуктов"  href="CatProducts.html">Catalog</a>
+                <a class="header__preview__link" aria-label="Переход по ссылке на главную страницу"  href="index.html">About Us</a>
+            </nav>
+        </div>
+        <div class="header__contacts">
+            <nav class="header__contacts__list undotted">
+                <a class="header__contacts__link" aria-label="Переход по ссылке игрушек" href="Toys.html"><img class="header__contacts__list__img" src="/img/search.svg" alt="search"></a>
+                <a class="header__contacts__link" aria-label="Переход по ссылке для связи с нами" href="contacts.html">Contact Us</a>
+            </nav>
+        </div> 
+    </header>  
+    <main>
+        <section class="banner container">
+        <h1 class="banner__title hidden">THE OOH NOO COLLECTION</h1>
+            <div class="banner-title">
+            <div class="banner__quote ">
+                <ul class="banner__quote__list undotted">
+                    <li class="banner__quote__list__item">
+                        <p class="banner__quote__list__caption">01</p>
+                    </li>
+                    <li class="banner__quote__list__item-line">
+                        <hr class="banner__quote__list__underline">
+                    </li>
+                    <li class="banner__quote__list__item-line">
+                        <hr class="banner__quote__list__underline-anothercolor">
+                    </li>
+                    <li class="banner__quote__list__item-line">
+                        <hr class="banner__quote__list__underline-anothercolor">
+                    </li>
+                    <li class="banner__quote__list__item-line">
+                        <hr class="banner__quote__list__underline-anothercolor">
+                    </li>
+                </ul>
+            </div>    
+                <div class="banner__quote">
+                    <ul class="banner__designed undotted">
+                    <li class="banner__quote__list__item-title">
+                        <p class="banner__designed__list__caption-title">THE OOH NOO COLLECTION</p>
+                    </li>
+                        <li class="banner__designed__list">
+                        </li>
+                    </ul>
+                    <div class="banner__designed__item__nav">
+                        <img class="banner__designed__img" src="/img/banner.png" alt="banner">
+                    </div>
+                </div>
+            </div>
+            <div class="banner__designed__item-sloven">  
+                <ul class="banner__designed-sloven undotted">                      
+                    <li class="banner__designed__item">
+                        <p class="banner__designed__caption undotted">Designed in Slovenia</p>
+                    </li>
+                            <li class="banner__designed__item">
+                        <button class="banner__designed__link btn banner__btn-js" aria-label="Кнопка формы, для связи с нами" >EXPLORE NOW</button>
+                    </li>
+                </ul>    
+                    <nav class="banner__designed__item__caption">
+                        <p class="banner__designed__list__caption">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+                    </nav>
+            </div>
+        </section>
+        <section class="products">
+            <h2 class="products__title container">Category Products</h2>
+        <div class="products__list container">
+            <div class="products__list__apparel">
+                <img class="products__list__img-apparel" src="/img/Apparel_kids.png" alt="Apparel kids">
+                <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход по ссылке категорий продуктов ###" href="#">Apparel Kids</a></div>
+            </div>
+            <div class="products__list__holiday">
+                <img class="products__list__img-holiday"  src="/img/Holiday_shop.png" alt="HOLIDAY SHOP">
+                <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход по ссылке категорий продуктов ###" href="#">HOLIDAY SHOP</a></div>
+            </div>
+            <div class="products__list__toys">
+                <img class="products__list__img"  src="/img/toys.png" alt="Toys">
+                <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход по ссылке категорий продуктов ###" href="#">Toys</a></div>
+            </div>
+            <div class="products__list__accessories">
+                <img class="products__list__img-accessories"  src="/img/accessories.png" alt="accessories">
+                <div class="products__list-centered"> <a class="products__list__link centered" aria-label="Переход по ссылке категорий продуктов ###" href="#">accessories</a></div>
+            </div>
+        </div>    
+    <div class="products__list__rolls container">
+        <ul class="products__list__roll undotted">
+            <li class="products__list__item">
+                <button class="products__list__btn-left" type="button"><img class="products__list__img-roll" src="/img/left_roll.png" alt="left_roll"></button>
+            </li>
+            <li class="products__list__item">
+                <button class="products__list__btn-right" type="button"><img class="products__list__img-roll" src="/img/right_role.png" alt="right_role"></button>
+            </li>
+            <li class="products__list__item text-products">
+                Modern finds for the modern home. Curated goods by unique 
+                    designers around the world from fashion to furniture for kids and adults.
+            </li>
+        </ul>
+    </div>
+    </section>     
+    <section class="delivery container">
+        <h2 class="delivery__title hidden">Delivery</h2>
+        <img class="delivery__title__img " src="/img/model.jpg" alt="model">
+        <div class="delivery__title-reverse">
+            <ul class="delivery__list undotted">
+                <li class="delivery__list__item">
+                    <p class="delivery__list__caption-delivery">Delivery</p>
+                </li>
+                <li class="delivery__list__item">
+                    <p class="delivery__list__link-delivery">Delivery</p>
+                </li>
+                <li class="delivery__list__item">
+                    <p class="delivery__list__caption-guarantee">Guarantee</p>
+                </li>
+                <li class="delivery__list__item">
+                    <p class="delivery__list__caption-credit">Credit</p>
+                </li>
+                <li class="delivery__list__item">
+                    <p class="delivery__list__caption-one">Some days i feel like i've been working on dlk my entire life and there are other days that i am 
+                        completely shocked that four years have flown by. 
+                        It's simply magical.</p>
+                </li>
+                <li class="delivery__list__item">
+                    <p class="delivery__list__caption-two">What started as an outlet to deal  with the 
+                        traumatic loss of my husband, dlk has now become a
+                        truly happy place for me and i have you and all of the 
+                        beautiful designers that we work with to thank!</p>
+                </li>
+                <li class="delivery__list__item">
+                    <a class="delivery__list__link-learn-more btn" aria-label="Переход по ссылке для того чтобы узнать больше о нашей компании" href="">LEARN MORE</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="sponsors container">
+        <h2 class="sponsors__title hidden">sponsors</h2>
+        <nav class="sponsots__list undotted">
+                <img class="sponsots__list__img" src="/img/mailru.svg" alt="sponsors">
+                <img class="sponsots__list__img" src="/img/apple.svg" alt="sponsors">
+                <img class="sponsots__list__img" src="/img/eltex.svg" alt="sponsors">
+                <img class="sponsots__list__img" src="/img/owox.svg" alt="sponsors">
+        </nav>
+    </section>
+    <section class="kids container">
+        <h2 class="kids__title hidden">Design Life Kids</h2>
+        <div class="kids__div container">
+            <nav class="kids__div__caption">
+                <p class="kids__caption">Design Life Kids</p>
+            </nav>
+            <div class="kids__div__design">
+                <ul class="kids__list undotted">
+                    <li class="kids__list__item">
+                        <p  class="kids__list__caption">About Us</p>
+                    </li>
+                    <li class="kids__list__item">
+                        <p class="kids__list__caption2">Some days i feel like i've been working on dlk my entire life and there are other days that 
+                            i am completely shocked that four years have flown by. It's simply magical.  </p>
+                    </li>
+                    <li class="kids__list__item">
+                        <a class="kids__list__link btn" aria-label="Переход по ссылке для покупки товаров" href="">buy now</a>
+                    </li>    
+                </ul>
+            </div>
+            <div class="kids__div__contact">
+                <ul class="kids__list  undotted">
+                    <li class="kids__list__item">
+                        <p class="kids__caption mb">Contacts</p>
+                    </li>
+                    <li class="kids__list__item">
+                        <p class="kids__list__contact__caption2">Some days i feel like i've been working on dlk my entire life and there are other days 
+                            that i am completely shocked that four years have flown by. It's simply magical.</p>
+                    </li>
+                </ul>
+                <div class="kids__div__contact__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148.2834477774329!2d49.290215682302!3d53.5124985565107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41687981eb77e79b%3A0xc6236db15e1d074e!2z0L_RgC4g0KHRgtC10L_QsNC90LAg0KDQsNC30LjQvdCwLCA0NCwg0KLQvtC70YzRj9GC0YLQuCwg0KHQsNC80LDRgNGB0LrQsNGPINC-0LHQuy4sIDQ0NTAyNw!5e0!3m2!1sru!2sru!4v1671043278594!5m2!1sru!2sru" width="483" height="196" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="footer ">
+        <div class="footer__main container">
+            <div class="footer__navigation">
+                <div class="footer__navigation__block">
+                <p class="footer__navigation__block__caption">Navigation</p>
+                <hr class="footer__navigation__line">
+                <a class="footer__navigation__link" aria-label="Переход по ссылке на главную страницу" href="index.html">About Us</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке на страницу блога" href="Blog.html">Blog</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Design Services" href="#">Design Services</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Featured On" href="#">Featured On</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке 2018 Holiday Catalog" href="#">2018 Holiday Catalog</a>
+                <a class="footer__navigation__link" aria-label="Переход по ссылке Shop By Designer" href="#">Shop By Designer</a>
+                </div>
+            </div>
+            <div class="footer__inform__block__contactus">
+                <p class="footer__navigation__block__caption">Customer Information</p>
+                <hr class="footer__navigation__line-contacts">
+                <a class="footer__inform__link" aria-label="Переход по ссылке для контакта с нами" href="contacts.html">Contact Us</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Sale Exclusions" href="#">Sale Exclusions</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Shipping & Returns" href="#">Shipping & Returns</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Terms & Conditions" href="#">Terms & Conditions</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Privacy Policy" href="#">Privacy Policy</a>
+                <a class="footer__inform__link" aria-label="Переход по ссылке Search" href="Toys.html">Search</a>
+            </div>    
+            <div class="footer__inform__block__connect">
+                <p class="footer__navigation__block__caption">Connect</p>
+                <hr class="footer__navigation__line-connect">
+                <div class="footer__inform__block__connect__input">
+                    <input class="footer__connect__input" type="text" value="Email">
+                    <button class="footer__connect__btn" type="submit">Join</button>
+                </div>
+                <nav class="footer__inform__block__connect__link">
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для фейсбука" href="#"><img class="footer__connect__img" src="/img/social/faceb.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для твиттера" href="#"><img class="footer__connect__img" src="/img/social/tweeet.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для Пайинтреса" href="#"><img class="footer__connect__img" src="/img/social/Pinterest.svg" alt="social"></a>
+                    <a class="footer__connect__link" aria-label="Переход по ссылке для Инстаграмма" href="#"><img class="footer__connect__img" src="/img/social/inst.svg" alt="social"></a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__navigation__list__underline container">
+            <hr class="footer__navigation__list__underline-line">
+        </div>
+            <div class="footer__navigation__list__rating container">
+                <p class="footer__navigation__caption">Company Rating</p>
+                <nav class="footer__navigation__list__nav">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                    <img class="footer__navigation__img" src="/img/star.png" alt="star">
+                </nav>
+                <a class="footer__inform__link-copy" aria-label="Переход по ссылке авторских прав" href="#">Copyright © 2018 Dlk • Design Life Kids</a>
+                <a class="footer__inform__link-dl" aria-label="Переход по ссылке Web Design — Direct Line Development" href="#">Web Design — Direct Line Development</a>
+            </div>
+    </footer>
+    <div class="popup">
+        <div class="overlay"></div>    
+        <form class="contactUs__box" action="aaa@aa.com">
+            <div class="contactUs-block">
+                <label class="contactUs__label" aria-label="Форма заполнения Имени" for="name">Name</label>
+                <input class="contactUs__input" type="text" id="name">
+            </div>
+            <div class="contactUs-phone">
+                <nav class="contactUs-phone__nav">
+                    <label class="contactUs__label" aria-label="Форма заполнения телефона" for="phone">Phone</label>
+                    <input class="contactUs__input-phone" type="tel" id="phone">
+                </nav>
+                <nav class="contactUs-phone__nav-email">  
+                    <label class="contactUs__label" aria-label="Форма заполнения электронного адреса" for="email">Email</label>
+                    <input class="contactUs__input-email" type="email" id="email">
+                </nav>      
+            </div>
+            <div class="contactUs-block">  
+                <label class="contactUs__label" aria-label="Форма для коментария\сообщения" for="message">Message</label>
+                <textarea class="contactUs__input-message" name="message" id="message" cols="10" rows="5"></textarea>
+            </div>
+            <fieldset class="table">            
+                <ul class="contactUs__list undotted">
+                <li class="contactUs__list__item">
+                    <input type="checkbox" class="contactUs__input__checkbox" id="box" name="browser" onchange="fun1()">
+                    <label class="contactUs__label__checkbox" aria-label="Подтверждение об обработки персональных данных" for="box"> By clicking on the button, you consent to the processing of your personal data</label>
+                </li>
+                </ul>
+            </fieldset>
+            <button id="btn" class="btn-verif btn" disabled>Submit</button>
+            <button class="closeform" type="button"><img class="popup-img" src="/img/chekbox/close.png" alt="X"></button>
+        </form>
+    </div>
+    <script src="/js/script.js"></script>     
+</body>
+</html>
