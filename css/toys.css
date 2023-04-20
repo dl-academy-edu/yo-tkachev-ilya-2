@@ -482,6 +482,35 @@ input[type="range"]::-ms-track {
     line-height: 20px;
     text-transform: uppercase;
     color: #C29974;
+    margin-right: 64px;
+}
+
+.blog__list__item-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+
+    margin-right: 64px;
+}
+
+.blog__list__item-number:hover{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+
+text-transform: uppercase;
+
+
+color: #AAAAAA;
 }
 
 .blog__list__item-leftroll {
@@ -492,9 +521,20 @@ input[type="range"]::-ms-track {
     margin-left: 393px;
 }
 
-.blog__list__item {
-    margin-right: 64px;
+
+
+.blog__list__item-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
 }
+
 
 .blog__list__link:hover {
     color: #AAAAAA;
