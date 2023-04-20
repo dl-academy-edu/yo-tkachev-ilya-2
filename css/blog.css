@@ -219,6 +219,8 @@ margin-top: -20px;
     margin-right: 67px;
 }
 
+
+
 .rolls {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -250,7 +252,7 @@ margin-top: -20px;
 }
 
 
-.blog__list__link:hover {
+.blog__list__item-link:hover {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;

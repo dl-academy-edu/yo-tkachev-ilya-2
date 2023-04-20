@@ -423,6 +423,78 @@ input[type="range"]::-ms-track {
     margin-right: 20px;
 }
 
+
+.catalog__caption-top{
+    background: url(/yo-tkachev-ilya-2/img/toys/learn\ more.png);
+    padding-top: 82px;
+    padding-bottom: 86px;
+    padding-right: 12px;
+    padding-left: 12px;
+
+    position: absolute;
+
+    z-index: 1;
+    top: 705px;
+
+    margin-left: 87px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E0606;
+    opacity: 0;
+}
+
+
+
+.catalog__caption-top:hover{
+    opacity: 1;
+}
+
+.catalog__caption-top:active{
+    opacity: 0.67;
+}
+
+.catalog__caption-low {
+    background: url(/yo-tkachev-ilya-2/img/toys/learn\ more.png);
+    padding-top: 82px;
+    padding-bottom: 86px;
+    padding-right: 12px;
+    padding-left: 12px;
+
+    position: absolute;
+
+    z-index: 1;
+    top: 1239px;
+
+    margin-left: 87px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E0606;
+    opacity: 0;
+
+}
+
+.catalog__caption-low:hover{
+    opacity: 1;
+}
+
+.catalog__caption-low:active{
+    opacity: 0.67;
+}
+
+
+
 .catalog__main {
     margin-top: 60px;
     margin-bottom: 48px;
@@ -482,6 +554,35 @@ input[type="range"]::-ms-track {
     line-height: 20px;
     text-transform: uppercase;
     color: #C29974;
+    margin-right: 64px;
+}
+
+.blog__list__item-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+
+    margin-right: 64px;
+}
+
+.blog__list__item-number:hover{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+
+text-transform: uppercase;
+
+
+color: #AAAAAA;
 }
 
 .blog__list__item-leftroll {
@@ -492,9 +593,20 @@ input[type="range"]::-ms-track {
     margin-left: 393px;
 }
 
-.blog__list__item {
-    margin-right: 64px;
+
+
+.blog__list__item-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
 }
+
 
 .blog__list__link:hover {
     color: #AAAAAA;
